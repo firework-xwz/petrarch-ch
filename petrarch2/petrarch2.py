@@ -512,7 +512,7 @@ def run(filepaths, out_file, s_parsed):
     if not s_parsed:
         events = utilities.stanford_parse(events)
 
-    # print("events_input:",events)
+    #print("events_input:",events)
 
     updated_events = do_coding(events)
     if PETRglobals.NullVerbs:

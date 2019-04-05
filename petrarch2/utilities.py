@@ -816,5 +816,4 @@ def convert_code(code, forward=1):
                         ])
         if code and code in reverse:
             return reverse[code]
-
         return 0  # hex(code)

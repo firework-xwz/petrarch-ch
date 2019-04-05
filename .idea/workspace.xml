@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e276fd5-9982-4092-8f8b-edfea23c1240" name="Default Changelist" comment="">
+
       <change afterPath="$PROJECT_DIR$/petrarch2/b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/petrarch2/PETRARCH.log" beforeDir="false" afterPath="$PROJECT_DIR$/petrarch2/PETRARCH.log" afterDir="false" />
@@ -10,6 +11,11 @@
       <change beforePath="$PROJECT_DIR$/petrarch2/evts.test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/petrarch2/evts.test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/petrarch2/petrarch2.py" beforeDir="false" afterPath="$PROJECT_DIR$/petrarch2/petrarch2.py" afterDir="false" />
     </list>
+      <change beforePath="$PROJECT_DIR$/petrarch2/PETRreader.py" beforeDir="false" afterPath="$PROJECT_DIR$/petrarch2/PETRreader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petrarch2/PETRtree.py" beforeDir="false" afterPath="$PROJECT_DIR$/petrarch2/PETRtree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petrarch2/petrarch2.py" beforeDir="false" afterPath="$PROJECT_DIR$/petrarch2/petrarch2.py" afterDir="false" />
+    </list>
+    <list default="true" id="6e276fd5-9982-4092-8f8b-edfea23c1240" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +32,8 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="509" column="38" selection-start-line="509" selection-start-column="24" selection-end-line="509" selection-end-column="38" />
+            <state relative-caret-position="3510">
+              <caret line="247" column="36" selection-start-line="247" selection-start-column="36" selection-end-line="247" selection-end-column="36" />
               <folding>
                 <element signature="e#25#62#0" expanded="true" />
               </folding>
@@ -44,6 +52,17 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/petrarch2/data/config/PETR_config.ini">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/petrarch2/tevent.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
               <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
@@ -96,6 +115,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="879" column="49" selection-start-line="879" selection-start-column="49" selection-end-line="879" selection-end-column="49" />
+=======
+            <state relative-caret-position="155">
+              <caret line="1277" column="50" selection-start-line="1277" selection-start-column="50" selection-end-line="1277" selection-end-column="50" />
+>>>>>>> dd77a90a40a89a2aa5f1ea1862b50e93392622cc
               <folding>
                 <element signature="e#2#39#0" expanded="true" />
                 <element signature="e#177#276#0" />
@@ -110,14 +133,21 @@
                 <element signature="e#9397#10582#0" />
                 <element signature="e#10625#14425#0" />
                 <element signature="e#22373#23123#0" />
+<<<<<<< HEAD
                 <element signature="e#24406#25772#0" />
+=======
+                <element signature="e#30000#31137#0" />
+>>>>>>> dd77a90a40a89a2aa5f1ea1862b50e93392622cc
                 <element signature="e#33442#34711#0" />
                 <element signature="e#34829#35978#0" />
                 <element signature="e#36013#36583#0" />
                 <element signature="e#36673#39708#0" />
                 <element signature="e#39795#42958#0" />
+<<<<<<< HEAD
                 <element signature="e#43002#46472#0" />
                 <element signature="e#46511#52299#0" />
+=======
+>>>>>>> dd77a90a40a89a2aa5f1ea1862b50e93392622cc
               </folding>
             </state>
           </provider>
@@ -210,8 +240,45 @@
         <subPane>
           <expand>
             <path>
-              <item name="petrarch-ch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="petrarch-ch" type="462c0819:PsiDirectoryNode" />
+              <item name="petrarch2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="petrarch2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="petrarch2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="petrarch2" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="petrarch2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="petrarch2" type="462c0819:PsiDirectoryNode" />
+              <item name="petrarch2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="petrarch2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="petrarch2" type="462c0819:PsiDirectoryNode" />
+              <item name="petrarch2" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="petrarch2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="petrarch2" type="462c0819:PsiDirectoryNode" />
+              <item name="petrarch2" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="petrarch2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="petrarch2" type="462c0819:PsiDirectoryNode" />
+              <item name="petrarch2" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="dictionaries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="petrarch2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="petrarch2" type="462c0819:PsiDirectoryNode" />
+              <item name="petrarch2" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="petrarch-ch" type="b2602c69:ProjectViewProjectNode" />
@@ -325,18 +392,25 @@
       <workItem from="1554378286525" duration="659000" />
       <workItem from="1554381203301" duration="17417000" />
       <workItem from="1554443361840" duration="1893000" />
+<<<<<<< HEAD
       <workItem from="1554448019102" duration="4568000" />
+=======
+      <workItem from="1554448019102" duration="109000" />
+>>>>>>> dd77a90a40a89a2aa5f1ea1862b50e93392622cc
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="106787000" />
+=======
+    <option name="totallyTimeSpent" value="102328000" />
+>>>>>>> dd77a90a40a89a2aa5f1ea1862b50e93392622cc
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1913646" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18923241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -467,13 +541,42 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/petrarch2/GigaWord.sample.PETR.xml">
+=======
+    <entry file="file://$PROJECT_DIR$/petrarch2/petrarch2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3510">
+          <caret line="247" column="36" selection-start-line="247" selection-start-column="36" selection-end-line="247" selection-end-column="36" />
+          <folding>
+            <element signature="e#25#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petrarch2/tevent.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petrarch2/utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8046">
+          <caret line="455" column="60" selection-start-line="455" selection-start-column="60" selection-end-line="455" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petrarch2/PETRreader.py">
+>>>>>>> dd77a90a40a89a2aa5f1ea1862b50e93392622cc
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="90" column="50" lean-forward="true" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/petrarch2/tevent.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -505,13 +608,24 @@
             <caret selection-end-line="1" />
           </first_editor>
           <second_editor />
+=======
+    <entry file="file://$PROJECT_DIR$/petrarch2/PETRglobals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+>>>>>>> dd77a90a40a89a2aa5f1ea1862b50e93392622cc
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/petrarch2/PETRtree.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="238">
           <caret line="879" column="49" selection-start-line="879" selection-start-column="49" selection-end-line="879" selection-end-column="49" />
+=======
+        <state relative-caret-position="155">
+          <caret line="1277" column="50" selection-start-line="1277" selection-start-column="50" selection-end-line="1277" selection-end-column="50" />
+>>>>>>> dd77a90a40a89a2aa5f1ea1862b50e93392622cc
           <folding>
             <element signature="e#2#39#0" expanded="true" />
             <element signature="e#177#276#0" />
@@ -526,14 +640,21 @@
             <element signature="e#9397#10582#0" />
             <element signature="e#10625#14425#0" />
             <element signature="e#22373#23123#0" />
+<<<<<<< HEAD
             <element signature="e#24406#25772#0" />
+=======
+            <element signature="e#30000#31137#0" />
+>>>>>>> dd77a90a40a89a2aa5f1ea1862b50e93392622cc
             <element signature="e#33442#34711#0" />
             <element signature="e#34829#35978#0" />
             <element signature="e#36013#36583#0" />
             <element signature="e#36673#39708#0" />
             <element signature="e#39795#42958#0" />
+<<<<<<< HEAD
             <element signature="e#43002#46472#0" />
             <element signature="e#46511#52299#0" />
+=======
+>>>>>>> dd77a90a40a89a2aa5f1ea1862b50e93392622cc
           </folding>
         </state>
       </provider>

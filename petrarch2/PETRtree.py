@@ -10,6 +10,7 @@ import time
 import utilities
 import types
 import logging
+import json
 
 # -- from inspect import getouterframes, currentframe  # -- # used to track the levels of recursion
 
@@ -185,6 +186,7 @@ class Phrase:
                 agentcodes.append(code)
             else:
                 actorcodes.append(code)
+
         return actorcodes, agentcodes
 
     def mix_codes(self, agents, actors):
@@ -337,7 +339,7 @@ class NounPhrase(Phrase):
                 value = child.get_text()
                 text += value[0]
                 PPcodes += value[1]
-            if child.label[:2] in ["JJ", "NN", "DT"]:
+            if child.label[:2] in ["JJ", "NN", "DT","NR"]:
                 # print("else:", child.text)
                 text += " " + child.text
         # print("text:",text)
@@ -492,9 +494,10 @@ class NounPhrase(Phrase):
             if isinstance(child, NounPhrase):
                 # --                print('NPgm-NP:',child.text)  # --
                 value = child.get_text()
+                # print(json.dumps(value, ensure_ascii=False, encoding='utf-8'))
                 text_children += value[0].split()
                 NPcodes += value[1]
-            elif child.label[:2] in ["JJ", "DT", "NN"]:
+            elif child.label[:2] in ["JJ", "DT", "NN", "NR"]:
                 text_children += child.get_text().split()
 
             elif child.label == "PP":
@@ -552,12 +555,14 @@ class NounPhrase(Phrase):
 
         # check whether there are codes in the noun Phrase
         index = 0
+        print ("text_children:")
+        print(json.dumps(text_children, ensure_ascii=False, encoding='utf-8'))
         while index < len(text_children):
             match = recurse(
                 PETRglobals.ActorDict, text_children[
                     index:], 0)  # checking for actors
             if match:
-                # print('NPgm-m-1:',match)
+                print('NPgm-m-1:',match)
                 codes += match[0]
                 roots += match[3]
                 index += match[2]
@@ -950,6 +955,7 @@ class VerbPhrase(Phrase):
             else:
                 maps += evs
         self.meaning = maps
+        print("maps:",maps)
         return maps
 
     def return_upper(self):
@@ -1195,8 +1201,9 @@ class VerbPhrase(Phrase):
 
         if verb in dict:
             code = 0
+            print("verb:", verb)
             path = dict[verb]
-            #print("path:",path)
+            print(json.dumps(path, ensure_ascii=False, encoding='utf-8'))
             if ['#'] == path.keys():
                 #print("123:",path.keys())
                 path = path['#']
@@ -1209,6 +1216,7 @@ class VerbPhrase(Phrase):
                         if not code == '':
                             active, passive = utilities.convert_code(code)
                             self.code = active
+                            print("active:",active)
                     except:
                         self.code = (0, 0, [])
             else:
@@ -1241,9 +1249,11 @@ class VerbPhrase(Phrase):
             # --              print('++4',match)
             # --              print('++3',match['line'])
             meta.append(match['line'])
-# --              print(match)
             print("match:",match)
+            print(json.dumps(match, ensure_ascii=False, encoding='utf-8'))
             active, passive = utilities.convert_code(match['code'])
+            print("code:")
+            print(utilities.convert_code(4098, 0))
             self.code = active
         if passive and not active:
             self.check_passive = lambda: True
@@ -1740,6 +1750,7 @@ class Sentence:
                                         # aren't going into 'meta'
 
             self.events = list(set(valid))
+            print("end:",events)
             self.get_events = self.return_events
 #--            print('GF3',valid,'\nGF4',meta) # --
             return valid, meta

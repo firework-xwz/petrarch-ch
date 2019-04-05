@@ -23,7 +23,8 @@
 [CHN]
  #中国的主要城市
 
-多米尼加_ [DOM]
+多米尼加_
+[DOM]
 萨尔瓦多_ [SLV]
 拉美_ [LAM]
 UFFE_ELLEMANN_JENSEN_  

@@ -1,74 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Sentences>
-<Sentence date="20180912" id="65588_3" sentence="True" source="NULL">
+<Sentence date="20180908" id="65567_1" sentence="True" source="NULL">
 <Text>
-中国在拉美的“朋友圈”进一步扩大，继巴拿马之后，多米尼加、萨尔瓦多同我国建立外交关系，充分说明一个中国原则已成为国际压倒性共识，中国的发展对拉美吸引力不断增强。
+中国取得成就
 </Text>
 <Parse>
-(ROOT
-  (IP
-    (NP (NR 中国))
-    (VP
-      (PP (P 在)
-        (NP
-          (DNP
-            (NP (NR 拉美))
-            (DEG 的))
-          (NP (PU “) (NN 朋友) (NN 圈) (PU ”))))
-      (VP
-        (VP
-          (ADVP (AD 进一步))
-          (VP (VV 扩大)))
-        (PU ，)
-        (IP
-          (IP
-            (IP
-              (PP (P 继)
-                (LCP
-                  (NP (NR 巴拿马))
-                  (LC 之后)))
-              (PU ，)
-              (NP (NR 多米尼加) (PU 、) (NR 萨尔瓦多))
-              (VP
-                (PP (P 同)
-                  (NP
-                    (NP (PN 我))
-                    (NP (NN 国))))
-                (VP (VV 建立)
-                  (NP (NN 外交) (NN 关系)))))
-            (PU ，)
-            (IP
-              (VP
-                (ADVP (AD 充分))
-                (VP (VV 说明)
-                  (NP
-                    (NP
-                      (QP (CD 一)
-                        (CLP (M 个)))
-                      (NP (NR 中国)))
-                    (NP (NN 原则))))))
-            (VP
-              (ADVP (AD 已))
-              (VP (VV 成为)
-                (NP
-                  (NP (NN 国际))
-                  (ADJP (JJ 压倒性))
-                  (NP (NN 共识))))))
-          (PU ，)
-          (IP
-            (NP
-              (DNP
-                (NP (NR 中国))
-                (DEG 的))
-              (NP (NN 发展)))
-            (VP
-              (PP (P 对)
-                (NP
-                  (NP (NR 拉美))
-                  (NP (NN 吸引力))))
-              (ADVP (AD 不断))
-              (VP (VV 增强)))))))
-    (PU 。)))
+(ROOT
+  (IP
+    (NP (NR 中国))
+    (VP (VV 取得)
+      (NP (NN 成就)))))
 </Parse>
 </Sentence>
 </Sentences>

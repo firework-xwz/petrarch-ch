@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sentences>
+<Sentence date="20180908" id="65567_1" sentence="True" source="NULL">
+<Text>
+党的十九大以来，中拉关系有了新方向，实现了新突破
+</Text>
+<Parse>
+(ROOT
+
+  (IP
+
+    (DNP
+
+      (NP (NN 党))
+
+      (DEG 的))
+
+    (IP
+
+      (QP (CD 十九))
+
+      (LCP
+
+        (ADJP (JJ 大))
+
+        (LC 以来))
+
+      (PU ，)
+
+      (NP
+
+        (NP (NR 中) (NR 拉))
+
+        (NP (NN 关系)))
+
+      (VP (VE 有) (AS 了)
+
+        (IP
+
+          (NP
+
+            (ADJP (JJ 新))
+
+            (NP (NN 方向)))
+
+          (PU ，)
+
+          (VP (VV 实现) (AS 了)
+
+            (NP
+
+              (ADJP (JJ 新))
+
+              (NP (NN 突破)))))))))
+</Parse>
+</Sentence>
+<Sentence date="20180912" id="65588_1" sentence="True" source="NULL">
+<Text>
+多米尼加、萨尔瓦多同我国建立外交关系
+</Text>
+<Parse>
+(ROOT
+
+  (IP
+
+    (NP (NR 多米尼加) (PU 、) (NR 萨尔瓦多))
+
+    (VP
+
+      (PP (P 同)
+
+        (NP
+
+          (NP (PN 我))
+
+          (NP (NN 国))))
+
+      (VP (VV 建立)
+
+        (NP (NN 外交) (NN 关系))))))
+</Parse>
+</Sentence>
+<Sentence date="20180912" id="65646_1" sentence="True" source="NULL">
+<Text>
+国家主席习近平11日在符拉迪沃斯托克和俄罗斯总统普京共同出席中俄地方领导人对话会
+</Text>
+<Parse>
+(ROOT
+
+  (IP
+
+    (NP
+
+      (NP (NN 国家) (NN 主席))
+
+      (NP (NR 习近平)))
+
+    (VP
+
+      (NP (NT 11日))
+
+      (PP (P 在)
+
+        (NP
+
+          (NP
+
+            (NP (NR 符拉迪沃斯托克)
+
+              (CC 和)
+
+              (NR 俄罗斯))
+
+            (NP (NN 总统)))
+
+          (NP (NR 普京))))
+
+      (ADVP (AD 共同))
+
+      (VP (VV 出席)
+
+        (NP
+
+          (NP (NR 中) (NR 俄))
+
+          (NP (NN 地方) (NN 领导人) (NN 对话会)))))))
+</Parse>
+</Sentence>
+<Sentence date="20180913" id="65671_1" sentence="True" source="NULL">
+<Text>
+本报北京9月12日电??（记者巨云鹏）12日，由江苏省委宣传部主办，江苏广电总台、连云港市委宣传部、幸福蓝海影视文化集团承办的现实主义题材电影《两个人的海岛》项目启动会在京举行。
+</Text>
+<Parse>
+(ROOT
+
+  (FRAG (DT 本) (NN 报) (NR 北京) (NT 9月) (NT 12日) (NN 电) (PU ?)))
+</Parse>
+</Sentence>
+<Sentence date="20180913" id="65671_2" sentence="True" source="NULL">
+<Text>
+影片以江苏省灌云县开山岛民兵哨所所长王继才和家人坚守海岛的故事为原型进行创作。
+</Text>
+<Parse>
+(ROOT
+
+  (IP
+
+    (NP (NN 影片))
+
+    (VP
+
+      (PP (P 以)
+
+        (NP (NR 江苏省) (NR 灌云县)))
+
+      (VP (VV 开山)
+
+        (IP
+
+          (NP
+
+            (NP (NN 岛民) (NN 兵) (NN 哨所) (NN 所长))
+
+            (NP (NR 王继才)
+
+              (CC 和)
+
+              (NN 家人)))
+
+          (VP
+
+            (VP (VV 坚守)
+
+              (NP
+
+                (DNP
+
+                  (NP (NN 海岛))
+
+                  (DEG 的))
+
+                (NP (NN 故事))))
+
+            (VP
+
+              (PP (P 为)
+
+                (NP (NN 原型)))
+
+              (VP (VV 进行)
+
+                (NP (NN 创作))))))))
+
+    (PU 。)))
+</Parse>
+</Sentence>
+<Sentence date="20180913" id="65671_3" sentence="True" source="NULL">
+<Text>
+王继才于1986年接受守岛任务，与妻子在开山岛上坚守32年，把青春年华全部献给了祖国的海防事业。
+</Text>
+<Parse>
+(ROOT
+
+  (IP
+
+    (NP (NR 王继才))
+
+    (VP
+
+      (VP
+
+        (PP (P 于)
+
+          (NP (NT 1986年)))
+
+        (VP (VV 接受)
+
+          (NP (NN 守) (NN 岛) (NN 任务))))
+
+      (PU ，)
+
+      (VP
+
+        (PP (P 与)
+
+          (NP (NN 妻子)))
+
+        (PP (P 在)
+
+          (IP
+
+            (VP
+
+              (VP
+
+                (VP (VV 开山)
+
+                  (NP (NN 岛上)))
+
+                (VP (VV 坚守)
+
+                  (NP (NT 32年))))
+
+              (PU ，)
+
+              (VP (BA 把)
+
+                (IP
+
+                  (NP (NN 青春) (NN 年华))
+
+                  (VP
+
+                    (ADVP (AD 全部))
+
+                    (VP (VV 献给) (AS 了)
+
+                      (NP
+
+                        (DNP
+
+                          (NP (NN 祖国))
+
+                          (DEG 的))
+
+                        (NP (NN 海防) (NN 事业))))))))))))
+
+    (PU 。)))
+</Parse>
+</Sentence>
+<Sentence date="20180913" id="65671_4" sentence="True" source="NULL">
+<Text>
+今年7月27日，王继才在执勤时突发疾病，经抢救无效去世，年仅58岁，他的事迹在全国范围内引起了热烈反响。
+</Text>
+<Parse>
+(ROOT
+
+  (IP
+
+    (IP
+
+      (NP (NT 今年) (NT 7月) (NT 27日))
+
+      (PU ，)
+
+      (NP (NR 王继才))
+
+      (VP
+
+        (PP (P 在)
+
+          (LCP
+
+            (NP (NN 执勤))
+
+            (LC 时)))
+
+        (VP (VV 突发)
+
+          (NP (NN 疾病)))))
+
+    (PU ，)
+
+    (IP
+
+      (PP (P 经)
+
+        (NP (NN 抢救)))
+
+      (VP (VV 无效)
+
+        (IP
+
+          (VP (VV 去世)))))
+
+    (PU ，)
+
+    (IP
+
+      (NP (NN 年))
+
+      (VP
+
+        (QP
+
+          (ADVP (AD 仅))
+
+          (QP (CD 58)
+
+            (CLP (M 岁))))))
+
+    (PU ，)
+
+    (IP
+
+      (NP
+
+        (DNP
+
+          (NP (PN 他))
+
+          (DEG 的))
+
+        (NP (NN 事迹)))
+
+      (VP
+
+        (PP (P 在)
+
+          (LCP
+
+            (NP (NN 全国) (NN 范围))
+
+            (LC 内)))
+
+        (VP (VV 引起) (AS 了)
+
+          (NP
+
+            (ADJP (JJ 热烈))
+
+            (NP (NN 反响))))))
+
+    (PU 。)))
+</Parse>
+</Sentence>
+<Sentence date="20180910" id="65677_1" sentence="True" source="NULL">
+<Text>
+王继才在执勤时突发疾病，经抢救无效去世，年仅58岁，他的事迹在全国范围内引起了热烈反响。
+</Text>
+<Parse>
+(ROOT
+
+  (IP
+
+    (IP
+
+      (NP (NR 王继才))
+
+      (VP
+
+        (VP
+
+          (PP (P 在)
+
+            (LCP
+
+              (NP (NN 执勤))
+
+              (LC 时)))
+
+          (VP (VV 突发)
+
+            (NP (NN 疾病))))
+
+        (PU ，)
+
+        (VP
+
+          (PP (P 经)
+
+            (NP (NN 抢救)))
+
+          (VP (VV 无效)
+
+            (IP
+
+              (VP (VV 去世)))))))
+
+    (PU ，)
+
+    (IP
+
+      (NP (NN 年))
+
+      (VP
+
+        (QP
+
+          (ADVP (AD 仅))
+
+          (QP (CD 58)
+
+            (CLP (M 岁))))))
+
+    (PU ，)
+
+    (IP
+
+      (NP
+
+        (DNP
+
+          (NP (PN 他))
+
+          (DEG 的))
+
+        (NP (NN 事迹)))
+
+      (VP
+
+        (PP (P 在)
+
+          (LCP
+
+            (NP (NN 全国) (NN 范围))
+
+            (LC 内)))
+
+        (VP (VV 引起) (AS 了)
+
+          (NP
+
+            (ADJP (JJ 热烈))
+
+            (NP (NN 反响))))))
+
+    (PU 。)))
+</Parse>
+</Sentence>
+</Sentences>
