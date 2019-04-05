@@ -1,0 +1,12 @@
+INFO 2019-04-05 14:03:19,984: Running
+INFO 2019-04-05 14:03:19,986: Using default config file.
+INFO 2019-04-05 14:03:19,990: Reading CAMEO.2.0.txt
+INFO 2019-04-05 14:03:21,990: Reading Phoenix.agents.txt
+
+WARNING 2019-04-05 14:03:22,007: Codes are required for agents in .agents file ; line skipped
+INFO 2019-04-05 14:03:22,012: Reading Phoenix.discards.txt
+INFO 2019-04-05 14:03:22,015: Reading Phoenix.IssueCoding.txt
+INFO 2019-04-05 14:03:22,552: ut.EP AFP0808020675_1 len(keylist) < 2 [u'nouns']
+INFO 2019-04-05 14:03:23,434: 	Sentence discard.   1994
+INFO 2019-04-05 14:03:27,009: 	Sentence discard.   FRENCH PLAYING 1994
+INFO 2019-04-05 14:03:27,033: 	Sentence discard.   1994
