@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/petrarch2/PETRtree.py" beforeDir="false" afterPath="$PROJECT_DIR$/petrarch2/PETRtree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/petrarch2/petrarch2.py" beforeDir="false" afterPath="$PROJECT_DIR$/petrarch2/petrarch2.py" afterDir="false" />
     </list>
+    <list default="true" id="6e276fd5-9982-4092-8f8b-edfea23c1240" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/petrarch2/PETRtree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1897">
-              <caret line="960" column="28" selection-start-line="960" selection-start-column="28" selection-end-line="960" selection-end-column="28" />
+            <state relative-caret-position="155">
+              <caret line="1277" column="50" selection-start-line="1277" selection-start-column="50" selection-end-line="1277" selection-end-column="50" />
               <folding>
                 <element signature="e#2#39#0" expanded="true" />
                 <element signature="e#177#276#0" />
@@ -110,11 +111,6 @@
                 <element signature="e#36013#36583#0" />
                 <element signature="e#36673#39708#0" />
                 <element signature="e#39795#42958#0" />
-                <element signature="e#43002#46410#0" />
-                <element signature="e#46947#47531#0" />
-                <element signature="e#47670#49688#0" />
-                <element signature="e#49745#50601#0" />
-                <element signature="e#50733#51918#0" />
               </folding>
             </state>
           </provider>
@@ -238,7 +234,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -312,11 +308,12 @@
       <workItem from="1554378286525" duration="659000" />
       <workItem from="1554381203301" duration="17417000" />
       <workItem from="1554443361840" duration="1893000" />
+      <workItem from="1554448019102" duration="109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102219000" />
+    <option name="totallyTimeSpent" value="102328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -524,8 +521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/petrarch2/PETRtree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1897">
-          <caret line="960" column="28" selection-start-line="960" selection-start-column="28" selection-end-line="960" selection-end-column="28" />
+        <state relative-caret-position="155">
+          <caret line="1277" column="50" selection-start-line="1277" selection-start-column="50" selection-end-line="1277" selection-end-column="50" />
           <folding>
             <element signature="e#2#39#0" expanded="true" />
             <element signature="e#177#276#0" />
@@ -546,11 +543,6 @@
             <element signature="e#36013#36583#0" />
             <element signature="e#36673#39708#0" />
             <element signature="e#39795#42958#0" />
-            <element signature="e#43002#46410#0" />
-            <element signature="e#46947#47531#0" />
-            <element signature="e#47670#49688#0" />
-            <element signature="e#49745#50601#0" />
-            <element signature="e#50733#51918#0" />
           </folding>
         </state>
       </provider>
