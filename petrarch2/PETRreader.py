@@ -55,6 +55,7 @@ except ImportError:
 
 import PETRglobals
 import utilities
+import json
 
 
 # ================== STRINGS ================== #
@@ -716,7 +717,7 @@ def read_verb_dictionary(verb_path):
 
     logger = logging.getLogger('petr_log')
     logger.info("Reading " + PETRglobals.VerbFileName)
-    file = open(verb_path, 'r')
+    file = io.open(verb_path, 'r', encoding='utf-8')
 
     block_meaning = ""
     block_code = ""
@@ -761,10 +762,11 @@ def read_verb_dictionary(verb_path):
                     else:
                         baseword = word
                     lines += resolve_synset(line.replace(set, baseword, 1))#resolve synset recursively
-
+                    '''
                     plural = make_plural_noun(word)
                     if plural:
                         lines += resolve_synset(line.replace(set, plural, 1))
+                    '''
                 return lines
             else:
                 print("Undefined synset", set)
@@ -1019,7 +1021,7 @@ def read_verb_dictionary(verb_path):
 
             if words[-1].startswith("["):
                 code = words.pop()
-
+            '''
             if not (len(words) > 1 or '{' in word):
 
                 if stem.endswith("S") or stem.endswith("X") or stem.endswith("Z"):
@@ -1038,7 +1040,7 @@ def read_verb_dictionary(verb_path):
                     words.append(stem[:-1] + "ING")
                 else:
                     words.append(stem + "ING")
-
+            '''
             for w in words:
                 wstem = w
                 if "_" in w:
@@ -2378,3 +2380,9 @@ def _sentence_segmenter(paragr):
         sentlist.append(paragr)
 
     return sentlist
+
+
+if __name__ == '__main__':
+    #read_actor_dictionary('C:/Users/liet2/OneDrive/Documents/MyJianGuoYun/事件提取相关/字典研究小组/中文字典/MyActorDic.txt')
+    read_verb_dictionary('C:/Users/liet2/OneDrive/Documents/MyJianGuoYun/事件提取相关/字典研究小组/中文字典/MyVerbDic.txt')
+    print(json.dumps(PETRglobals.VerbDict['phrases'], ensure_ascii=False,  encoding='utf-8'))
