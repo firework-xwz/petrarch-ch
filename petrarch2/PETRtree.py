@@ -1276,8 +1276,6 @@ class VerbPhrase(Phrase):
         """
 
         def recurse(pdict, event, a2v={}, v2a={}):
-            print("e:", e)
-            print("pdict:", pdict)
             path = pdict
             if isinstance(pdict, list):
                 line = pdict[1]
