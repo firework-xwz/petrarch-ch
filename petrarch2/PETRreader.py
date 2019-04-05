@@ -2142,6 +2142,7 @@ def read_xml_input(filepaths, parsed=False):
     for path in filepaths:
         tree = ET.iterparse(path)
 
+
         for event, elem in tree:
             if event == "end" and elem.tag == "Sentence":
                 story = elem
@@ -2149,7 +2150,7 @@ def read_xml_input(filepaths, parsed=False):
 
 
 
-                #print("story:",story)
+                print("story:",story)
 
 
 
