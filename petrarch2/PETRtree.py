@@ -1197,11 +1197,11 @@ class VerbPhrase(Phrase):
         path = dict
         passive = False
 
-        print("verb:",verb)
+        print("verb:",json.dumps(verb, ensure_ascii=False, encoding='utf-8'))
 
         if verb in dict:
             code = 0
-            print("verb:", verb)
+            # print("verb:", verb)
             path = dict[verb]
             print(json.dumps(path, ensure_ascii=False, encoding='utf-8'))
             if ['#'] == path.keys():
