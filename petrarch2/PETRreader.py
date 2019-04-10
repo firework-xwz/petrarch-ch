@@ -2388,4 +2388,6 @@ def _sentence_segmenter(paragr):
 
 if __name__ == '__main__':
     read_verb_dictionary('C:/Users/liet2/OneDrive/Documents/MyJianGuoYun/事件提取相关/字典研究小组/中文字典/MyVerbDic.txt')
-    print(json.dumps(PETRglobals.VerbDict['phrases'], ensure_ascii=False,  encoding='utf-8'))
+    read_actor_dictionary('C:/Users/liet2/OneDrive/Documents/MyJianGuoYun/事件提取相关/字典研究小组/中文字典/MyActorDic.txt')
+    #print(json.dumps(PETRglobals.VerbDict['phrases'], ensure_ascii=False,  encoding='utf-8'))
+    print(json.dumps(PETRglobals.ActorDict, ensure_ascii=False,  encoding='utf-8'))

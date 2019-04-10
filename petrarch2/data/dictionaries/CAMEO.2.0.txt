@@ -4377,7 +4377,7 @@ VERBALIZE
 - * (OVER TELEPHONE)                                  [041]         # TALK
 - * SITUATION                                         [046:046]     # DISCUSS
 - * (BETWEEN)                                         [046:046]     # TALK
-- * (WITH) [046:046]
+- * (WITH)                                            [046:046]
 - * WITHDRAWAL                                        [046]         # DISCUSS
 - * AID                                               [061]         # DISCUSS
 - WALK OUT *                                          [164]         # TALK
