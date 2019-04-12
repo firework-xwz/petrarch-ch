@@ -491,7 +491,6 @@ class NounPhrase(Phrase):
         matched_txt = []
 
         for child in self.children:
-            print('line 494: child.label: ', child.label)
             if isinstance(child, NounPhrase):
                 # --                print('NPgm-NP:',child.text)  # --
                 value = child.get_text()
@@ -1098,10 +1097,9 @@ class VerbPhrase(Phrase):
         lower = []
         v_options = filter(
             lambda a: (
-                isinstance(
-                    a,
-                    VerbPhrase) and a.is_valid()),
-            self.children)
+                isinstance(a, VerbPhrase) and a.is_valid())
+                # isinstance(a, VerbPhrase) and False)
+                , self.children)
 
         lower = map(lambda a: a.get_meaning(), v_options)
 
