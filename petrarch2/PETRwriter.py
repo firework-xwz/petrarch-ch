@@ -41,7 +41,7 @@ def write_events_demo(sent, events, meta, output_file):
     print(output_file)
 
     if output_file:
-        f = codecs.open(output_file, encoding='utf-8', mode='w')
+        f = codecs.open(output_file, encoding='utf-8', mode='a')
         f.write(sent.txt + '\n')
         f.write(sent.treestr + '\n')
         f.write(str(events) + '\n')

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sentences>
+<Sentence date="20180908" id="65567_1" sentence="True" source="NULL">
+<Text>
+　习近平和普京出席对话会。
+</Text>
+<Parse>
+(ROOT
+
+  (IP
+
+    (NP (NR 习近平)
+
+      (CC 和)
+
+      (NR 普京))
+
+    (VP (VV 出席)
+
+      (NP (NN 对话会)))
+
+    (PU 。)))
+</Parse>
+</Sentence>
+<Sentence date="20180908" id="65567_2" sentence="True" source="NULL">
+<Text>
+多米尼加、萨尔瓦多同我国建立外交关系。
+</Text>
+<Parse>
+(ROOT
+
+  (IP
+
+    (IP
+
+      (NP (NR 多米尼加) (PU 、) (NR 萨尔瓦多))
+
+      (VP
+
+        (PP (P 同)
+
+          (NP
+
+            (NP (PN 我))
+
+            (NP (NN 国))))
+
+        (VP (VV 建立)
+
+          (NP (NN 外交) (NN 关系)))))
+
+    (PU 。)))
+</Parse>
+</Sentence>
+</Sentences>
