@@ -1,5 +1,10 @@
- 国家 主席 习近平 11日 在 符拉迪沃斯托克 和 俄罗斯 总统 普京 共同 出席 中 俄 地方 领导人 对话会
-(IP (NP (NP (NN 国家  )  (NN 主席  )   )  (NP (NR 习近平  )   )   )  (VP (NP (NT 11日  )   )  (PP (P 在  )  (NP (NP (NP (NR 符拉迪沃斯托克  )  (CC 和  )  (NR 俄罗斯  )   )  (NP (NN 总统  )   )   )  (NP (NR 普京  )   )   )   )  (ADVP (AD 共同  )   )  (VP (VV 出席  )  (NP (NP (NR 中  )  (NR 俄  )   )  (NP (NN 地方  )  (NN 领导人  )  (NN 对话会  )   )   )   )   )   )  
-[[([u'CHNGOV'], u'', 8192)]]
-{u'nouns': [([u' \u4e60\u8fd1\u5e73'], [u'CHNGOV'], [(u'CHNGOV', [])])]}
+ 习近平 和 普京 出席 对话会 。
+(IP (NP (NR 习近平  )  (CC 和  )  (NR 普京  )   )  (VP (VV 出席  )  (NP (NN 对话会  )   )   )  (PU 。  )   )  
+[[([u'CHNGOV', u'RUSGOV'], u'', 8192)]]
+{u'nouns': [([u' \u4e60\u8fd1\u5e73', u' \u666e\u4eac'], [u'CHNGOV', u'RUSGOV'], [(u'CHNGOV', []), (u'SOVGOV', [u'19171107', u'910906'])])]}
+
+ 多米尼加 、 萨尔瓦多 同 我 国 建立 外交 关系 。
+(IP (IP (NP (NR 多米尼加  )  (PU 、  )  (NR 萨尔瓦多  )   )  (VP (PP (P 同  )  (NP (NP (PN 我  )   )  (NP (NN 国  )   )   )   )  (VP (VV 建立  )  (NP (NN 外交  )  (NN 关系  )   )   )   )   )  (PU 。  )   )  
+[]
+{u'nouns': []}
 
