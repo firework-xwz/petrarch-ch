@@ -9,6 +9,7 @@ import glob
 import time
 import logging
 import argparse
+import json
 
 # petrarch.py
 ##
@@ -244,8 +245,9 @@ def do_coding(event_dict):
                 # this is the entry point into the processing in PETRtree
                 coded_events, meta = sentence.get_events()
 
-                #print("coded_events:",coded_events)
+                print("coded_events:",coded_events)
                 #print("meta:",meta)
+                exit()
 
                 code_time = time.time() - t1
                 if PETRglobals.NullVerbs or PETRglobals.NullActors:
@@ -515,6 +517,9 @@ def run(filepaths, out_file, s_parsed):
     #print("events_input:",events)
 
     updated_events = do_coding(events)
+    print("update_event:")
+    print(json.dumps(updated_events, ensure_ascii=False, encoding='utf-8'))
+
     if PETRglobals.NullVerbs:
         PETRwriter.write_nullverbs(updated_events, 'nullverbs.' + out_file)
     elif PETRglobals.NullActors:

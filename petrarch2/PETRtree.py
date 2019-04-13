@@ -11,6 +11,7 @@ import utilities
 import types
 import logging
 import json
+import PETRwriter
 
 # -- from inspect import getouterframes, currentframe  # -- # used to track the levels of recursion
 
@@ -1764,6 +1765,10 @@ class Sentence:
 
             self.events = list(set(valid))
             print("end:",events)
+
+            #测试用
+            PETRwriter.write_events_demo(self, events, meta, 'evts.' + 'test.txt')
+
             self.get_events = self.return_events
 #--            print('GF3',valid,'\nGF4',meta) # --
             return valid, meta

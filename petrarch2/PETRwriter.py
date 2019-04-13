@@ -30,11 +30,23 @@ import PETRglobals  # global variables
 import utilities
 import codecs
 import json
-
+import PETRtree
 
 def get_actor_text(meta_strg):
     """ Extracts the source and target strings from the meta string. """
     pass
+
+
+def write_events_demo(sent, events, meta, output_file):
+    print(output_file)
+
+    if output_file:
+        f = codecs.open(output_file, encoding='utf-8', mode='w')
+        f.write(sent.txt + '\n')
+        f.write(sent.treestr + '\n')
+        f.write(str(events) + '\n')
+        f.write(str(meta) + '\n\n')
+        f.close()
 
 
 def write_events(event_dict, output_file):
