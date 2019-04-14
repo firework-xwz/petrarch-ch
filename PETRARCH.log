@@ -1,14 +1,8 @@
-INFO 2019-03-23 02:33:35,937: Running
-INFO 2019-03-23 02:33:35,940: Using default config file.
-INFO 2019-03-23 02:33:35,947: Reading CAMEO.2.0.txt
-INFO 2019-03-23 02:33:38,085: Reading Phoenix.agents.txt
+INFO 2019-04-14 15:04:41,970: Running
+INFO 2019-04-14 15:04:41,971: Using default config file.
+INFO 2019-04-14 15:04:41,977: Reading MyVerbDic.txt
+INFO 2019-04-14 15:04:41,990: Reading Phoenix.agents.txt
 
-WARNING 2019-03-23 02:33:38,107: Codes are required for agents in .agents file ; line skipped
-INFO 2019-03-23 02:33:38,109: Reading Phoenix.discards.txt
-INFO 2019-03-23 02:33:38,115: Reading Phoenix.IssueCoding.txt
-INFO 2019-03-23 02:33:38,184: ut.EP AFP0808020675_1 len(keylist) < 2 [u'nouns']
-INFO 2019-03-23 02:33:38,203: 	Sentence discard.   1994
-INFO 2019-03-23 02:33:38,226: 	Sentence discard.   FRENCH PLAYING 1994
-INFO 2019-03-23 02:33:38,227: 	Sentence discard.   1994
-INFO 2019-03-23 02:33:38,240: ut.EP AFP0808021021_3 text not found. Target
-INFO 2019-03-23 02:33:38,296: ut.EP COOP_0 len(keylist) < 2 [u'nouns']
+WARNING 2019-04-14 15:04:42,016: Codes are required for agents in .agents file ; line skipped
+INFO 2019-04-14 15:04:42,019: Reading Phoenix.discards.txt
+INFO 2019-04-14 15:04:42,029: Reading Phoenix.IssueCoding.txt
