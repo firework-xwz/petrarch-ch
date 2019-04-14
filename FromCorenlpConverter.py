@@ -5,7 +5,7 @@ from PetrXmlConverter import *
 
 
 class FromCorenlpConverter(PetrXmlConverter):
-    def __init__(self, input_path, output_path='', corenlp_path='', port=8000, memory='8g', lang='zh', timeout=1500,
+    def __init__(self, input_path, output_path='', corenlp_path='', port=8000, memory='4g', lang='zh', timeout=1500,
                  quiet=True, logging_level=logging.WARNING):
         PetrXmlConverter.__init__(self, input_path, output_path)
 
