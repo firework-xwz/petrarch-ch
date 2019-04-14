@@ -244,8 +244,10 @@ def do_coding(event_dict):
                 print(sentence.txt)
                 # this is the entry point into the processing in PETRtree
                 coded_events, meta = sentence.get_events()
-                print("123")
+
                 print("coded_events:",coded_events)
+                #print("meta:",meta)
+                # exit()
 
 #                 code_time = time.time() - t1
 #                 if PETRglobals.NullVerbs or PETRglobals.NullActors:
@@ -304,7 +306,7 @@ def do_coding(event_dict):
 #                         sys.exit()
 #
 #                 prev_code = coded_events
-#                 NEvents += len(coded_events)
+#                 # NEvents += len(coded_events)
 #                 if len(coded_events) == 0:
 #                     NEmpty += 1
 #             else:
@@ -315,23 +317,26 @@ def do_coding(event_dict):
 #             event_dict[key]['sents'] = None
 #
 #     print("\nSummary:")
-#     print(
-#         "Stories read:",
-#         NStory,
-#         "   Sentences coded:",
-#         NSent,
-#         "  Events generated:",
-#         NEvents)
-#     print(
-#         "Discards:  Sentence",
-#         NDiscardSent,
-#         "  Story",
-#         NDiscardStory,
-#         "  Sentences without events:",
-#         NEmpty)
-#     print("Average Coding time = ", times / sents if sents else 0)
-# #--    print('DC-exit:',event_dict)
-    return coded_events
+
+    """
+    print(
+        "Stories read:",
+        NStory,
+        "   Sentences coded:",
+        NSent,
+        "  Events generated:",
+        NEvents)
+    print(
+        "Discards:  Sentence",
+        NDiscardSent,
+        "  Story",
+        NDiscardStory,
+        "  Sentences without events:",
+        NEmpty)
+    print("Average Coding time = ", times / sents if sents else 0)
+    """
+# --    print('DC-exit:',event_dict)
+    return event_dict
 
 
 def parse_cli_args():
@@ -517,13 +522,14 @@ def run(filepaths, out_file, s_parsed):
     updated_events = do_coding(events)
     print("update_event:")
     print(json.dumps(updated_events, ensure_ascii=False, encoding='utf-8'))
-
+    """
     # if PETRglobals.NullVerbs:
     #     PETRwriter.write_nullverbs(updated_events, 'nullverbs.' + out_file)
     # elif PETRglobals.NullActors:
     #     PETRwriter.write_nullactors(updated_events, 'nullactors.' + out_file)
     # else:
     #     PETRwriter.write_events(updated_events, 'evts.' + out_file)
+    """
 
 
 def run_pipeline(data, out_file=None, config=None, write_output=True,
