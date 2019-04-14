@@ -410,8 +410,9 @@ PETRARCH2
     return args
 
 
-def main():
-    cli_args = parse_cli_args()
+def main(cli_args=None):
+    if not cli_args:
+        cli_args = parse_cli_args()
     utilities.init_logger('PETRARCH.log')
     logger = logging.getLogger('petr_log')
 
