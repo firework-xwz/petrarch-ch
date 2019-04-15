@@ -38,15 +38,16 @@ def get_actor_text(meta_strg):
 
 
 def write_events_demo(sent, events, meta, output_file):
-    print(output_file)
-
+    print("the output_path"+output_file)
     if output_file:
         f = codecs.open(output_file, encoding='utf-8', mode='a')
+        f.write('\n\n')
         f.write(sent.txt + '\n')
         f.write(sent.treestr + '\n')
         print(events)
         f.write(str(events[0][0]) + " " + str(utilities.convert_code(events[0][0][2], forward=0)) + '\n')
-        f.write(str(meta) + '\n\n')
+       # f.write(str(meta) + '\n\n')
+
         f.close()
 
 

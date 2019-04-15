@@ -4,10 +4,10 @@ import string
 import time
 from random import random
 from xml.dom.minidom import Document
-from enum import Enum, unique
+from enum import Enum
 
 
-@unique
+
 class Attr(Enum):
     id = 'id'
     date = 'date'
@@ -64,12 +64,25 @@ class PetrXmlConverter:
     #             stack.pop()
     #     return sentences
 
+    # def sep_sentence(self, content):
+    #     sentences = []
+    #     content = content.replace('\u3000', '').replace('　', '')\
+    #         .replace('。', '。\n') \
+    #         .replace('；', '，\n')\
+    #         .replace('。\n”', '。”\n')\
+    #         .strip(' \n')
+    #     for sent in content.split('\n'):
+    #         sentences.append({
+    #             Attr.text: sent,
+    #             Attr.parse: self.parse(sent)
+    #         })
+    #     return sentences
     def sep_sentence(self, content):
         sentences = []
         content = content.replace('\u3000', '').replace('　', '')\
-            .replace('。', '。\n')\
+            .replace('。', '\n') \
             .replace('；', '，\n')\
-            .replace('。\n”', '。”\n')\
+            .replace('。\n”', '”\n')\
             .strip(' \n')
         for sent in content.split('\n'):
             sentences.append({
