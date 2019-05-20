@@ -153,6 +153,7 @@ def write_events(event_dict, output_file):
 
     # Filter out blank lines
     event_output = [event for event in event_output if event]
+
     if output_file:
         f = codecs.open(output_file, encoding='utf-8', mode='w')
         for str in event_output:

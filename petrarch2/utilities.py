@@ -795,9 +795,9 @@ def convert_code(code, forward=1):
     if forward:
         passive = False
         active = code.split(":")
+        print("active111:",active)
         passive = active[1] if len(active) > 1 else "---"
         active = active[0] if active[0] else "---"
-
         if active in cat:
             active = cat[active]
         else:

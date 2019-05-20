@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sentences>
+<Sentence date="20180908" id="﻿65567_1" sentence="True" source="NULL">
+<Text>
+南斯拉夫被美国袭击
+</Text>
+<Parse>
+(ROOT
+
+  (IP
+
+    (NP (NR 南斯拉夫))
+
+    (VP (LB 被)
+
+      (IP
+
+        (NP (NR 美国))
+
+        (VP (VV 袭击))))))
+</Parse>
+</Sentence>
+<Sentence date="20180908" id="﻿65567_2" sentence="True" source="NULL">
+<Text>
+南斯拉夫被袭击
+</Text>
+<Parse>
+(ROOT
+
+  (IP
+
+    (NP (NR 南斯拉夫))
+
+    (VP (SB 被)
+
+      (VP (VV 袭击)))))
+</Parse>
+</Sentence>
+<Sentence date="20180908" id="65567_3" sentence="True" source="NULL">
+<Text>
+印度被英国所统治
+</Text>
+<Parse>
+(ROOT
+
+  (IP
+
+    (NP (NR 印度))
+
+    (VP (LB 被)
+
+      (IP
+
+        (NP (NR 英国))
+
+        (VP (MSP 所)
+
+          (VP (VV 统治)))))))
+</Parse>
+</Sentence>
+<Sentence date="20180908" id="﻿65567_4" sentence="True" source="NULL">
+<Text>
+中国指责南斯拉夫被美国袭击
+</Text>
+<Parse>
+(ROOT
+
+  (IP
+
+    (NP (NR 中国))
+
+    (VP (VV 指责)
+
+      (NP (NR 南斯拉夫))
+
+      (IP
+
+        (VP (LB 被)
+
+          (IP
+
+            (NP (NR 美国))
+
+            (VP (VV 袭击))))))))
+</Parse>
+</Sentence>
+</Sentences>

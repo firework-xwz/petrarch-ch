@@ -189,7 +189,6 @@ def do_coding(event_dict):
     """
 
     treestr = ""
-
     NStory = 0
     NSent = 0
     NEvents = 0
@@ -201,16 +200,11 @@ def do_coding(event_dict):
     times = 0
     sents = 0
 #判定当前输出文件是否存在，若存在则删除
-    """
-    path = "F:\git_localRepository\petrarch2_test\petrarch_ch_04\petrarch-ch\\"
-    dirs = os.listdir(path)
-    for file in dirs:
-        if file == 'evts.test.txt':
-            os.remove(path+file)
-    """
-    if os.path.exists('evts.test.txt'):
-        os.remove('evts.test.txt')
-
+    # path = "F:\git_localRepository\petrarch2_test\petrarch_ch_04\petrarch-ch\\"
+    # dirs = os.listdir(path)
+    # for file in dirs:
+    #     if file == 'evts.test.txt':
+    #         os.remove(path+file)
 
 
 
@@ -222,9 +216,7 @@ def do_coding(event_dict):
         print('\n\nProcessing story {}'.format(key))
         StoryDate = event_dict[key]['meta']['date']
         for sent in val['sents']:
-
             print("sent:",sent)
-
             NSent += 1
             if 'parsed' in event_dict[key]['sents'][sent]:
                 if 'config' in val['sents'][sent]:
@@ -259,6 +251,8 @@ def do_coding(event_dict):
                 print(sentence.txt)
                 # this is the entry point into the processing in PETRtree
                 coded_events, meta = sentence.get_events()
+                # print("coded_events:",coded_events)
+                # print("meta:",meta)
 
                 print("coded_events:",coded_events)
                 #print("meta:",meta)
