@@ -886,16 +886,27 @@ class VerbPhrase(Phrase):
             # Check for source in preps
             source_options = []
             target_options = up
+            print("target_options:",target_options)
             for child in self.children:
-                if isinstance(child, PrepPhrase):
-                    if child.get_prep() in ["BY", "FROM", "IN"]:
-                        source_options += child.get_meaning()
-                        meta.append((child.prep, child.get_meaning()))
-                    elif child.get_prep() in ["AT", "AGAINST", "INTO", "TOWARDS"]:
-                        target_options += child.get_meaning()
-                        meta.append((child.prep, child.get_meaning()))
+                print("aaa:",child.label)
+                if(child.label=="IP"):
+                    for item in child.children:
+                        if(item.label=="NP"):
+                            print("bbb:",item.get_meaning())
+                            source_options+=item.get_meaning()
+
+                # if isinstance(child, PrepPhrase):
+                #     if child.get_prep() in ["BY", "FROM", "IN"]:
+                #         source_options += child.get_meaning()
+                #         meta.append((child.prep, child.get_meaning()))
+                #     elif child.get_prep() in ["AT", "AGAINST", "INTO", "TOWARDS"]:
+                #         target_options += child.get_meaning()
+                #         meta.append((child.prep, child.get_meaning()))
             if not target_options:
                 target_options = ["passive"]
+            if not source_options:
+                source_options=["passive"]
+            # print("target_options",target_options)
             if source_options or c:
 
                 for i in target_options:
