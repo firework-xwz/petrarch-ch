@@ -23,7 +23,7 @@ class FromCorenlpConverter(PetrXmlConverter):
     def generate_events(self):
         with open(self.input_path, 'r') as source:
             for line in source.readlines():
-                properties = line.split('\t')
+                properties = line.split('|')
                 event = {
                     Attr.id: properties[0],
                     Attr.date: properties[4].split(' ')[0].replace('-', ''),

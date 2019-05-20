@@ -520,7 +520,8 @@ class NounPhrase(Phrase):
                         pass
                         # We could add the subtree here, but there shouldn't be
                         # any codes with VP components
-            elif child.label == "PRP":
+            elif child.label == "PN":
+                """
                 # Find antecedent
                 # --                print('NPgm-PRP:',child.text)  # --
                 not_found = True
@@ -554,7 +555,36 @@ class NounPhrase(Phrase):
                                     break
 
                     level = level.parent
+                """
+                not_found = True
+                level = self.parent
+                local = True
+                while not_found and level.parent:
+                    if level.label.startswith(
+                            "NP"):  # Intensive, ignore
+                        # --                        print('NPgm-1: Mk1')  # --
+                        break
+                    if local and level.label == 'IP':
+                        # --                        print('NPgm-1: Mk2')  # --
+                        local = False
+                        level = level.parent
+                        continue
 
+                    if not local:
+                        # --                        print('NPgm-1: Mk3')  # --
+                        for child in level.parent.children:
+                            if isinstance(child, NounPhrase):
+                                try:
+                                    cgm = child.get_meaning()  # see <16.06.10> note above
+                                except:
+                                    break
+                                # --                                print('NPgm-1: Mk4',isinstance(child,NounPhrase),"'" + child.text + "'")  # --
+                                if not cgm == "~":
+                                    not_found = False
+                                    codes += child.get_meaning()
+                                    break
+
+                    level = level.parent
         # check whether there are codes in the noun Phrase
         index = 0
         print("line 560: text_children:", json.dumps(text_children, ensure_ascii=False, encoding='utf-8'))
@@ -841,6 +871,8 @@ class VerbPhrase(Phrase):
             returns: [tuple]
                      list of resolved event tuples
             """
+            print('VP.resolve_event()')
+            print('event:', event)
             returns = []
             first, second, third = [up, "", ""]
             if not (up or c):
@@ -872,6 +904,7 @@ class VerbPhrase(Phrase):
                 third = utilities.combine_code(c, event[2])
             e = (first, second, third)
             self.sentence.metadata[id(e)] = [event, c, meta, 2]
+            print('line 875: returns: ', returns)
             return returns + [e]
 
         events = []
@@ -1720,7 +1753,7 @@ class Sentence:
                             event[1], basestring):
 
                         code = utilities.convert_code(event[2], 0)
-                        print('checking event', event, hex(event[2]))
+                        print('checking event', event, utilities.convert_code(event[2], 0))
                         if event[0] and event[1] and code:
                             for source in event[0]:
                                 valid.append(

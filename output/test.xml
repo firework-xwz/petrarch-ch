@@ -1,48 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sentences>
-<Sentence date="20180912" id="65646_1" sentence="True" source="NULL">
+<Sentence date="20180908" id="65567_1" sentence="True" source="NULL">
 <Text>
-国家主席习近平11日在符拉迪沃斯托克和俄罗斯总统普京共同出席中俄地方领导人对话会。
+中国和俄国在会谈中审视了《板门店宣言》履行情况，并就进一步积极落实《板门店宣言》开展了真诚协商
 </Text>
 <Parse>
-(ROOT
-  (IP
-    (NP
-      (NP (NN 国家) (NN 主席))
-      (NP (NR 习近平)))
-    (VP
-      (NP (NT 11日))
-      (PP (P 在)
-        (NP
-          (NP
-            (NP (NR 符拉迪沃斯托克)
-              (CC 和)
-              (NR 俄罗斯))
-            (NP (NN 总统)))
-          (NP (NR 普京))))
-      (ADVP (AD 共同))
-      (VP (VV 出席)
-        (NP
-          (NP (NR 中) (NR 俄))
-          (NP (NN 地方) (NN 领导人) (NN 对话会)))))
-    (PU 。)))
-</Parse>
-</Sentence>
-<Sentence date="20180912" id="65646_2" sentence="True" source="NULL">
-<Text>
-多米尼加、萨尔瓦多同我国建立外交关系
-</Text>
-<Parse>
-(ROOT
-  (IP
-    (NP (NR 多米尼加) (PU 、) (NR 萨尔瓦多))
-    (VP
-      (PP (P 同)
-        (NP
-          (NP (PN 我))
-          (NP (NN 国))))
-      (VP (VV 建立)
-        (NP (NN 外交) (NN 关系))))))
+(ROOT
+
+  (IP
+
+    (NP (NR 中国)
+
+      (CC 和)
+
+      (NR 俄罗斯))
+
+    (VP
+
+      (PP (P 在)
+
+        (LCP
+
+          (NP (NN 会谈))
+
+          (LC 中)))
+
+      (VP (VV 审视) (AS 了)
+
+          (NP (PU 《)
+
+            (NP (NR 板门店))
+
+            (NP (NN 宣言))
+
+            (PU 》))
+
+          (VP
+
+            (VP (VV 履行)
+
+              (NP (NN 情况)))
+
+            (PU ，)
+
+            (VP
+
+              (ADVP (AD 并))
+
+              (ADVP (AD 就))
+
+              (ADVP (AD 进一步))
+
+              (ADVP (AD 积极))
+
+              (VP (VV 落实)
+
+                (NP (PU 《)
+
+                  (NP (NR 板门店))
+
+                  (NP (NN 宣言))
+
+                  (PU 》))))
+
+            (VP (VV 开展) (AS 了)
+
+              (NP
+
+                (ADJP (JJ 真诚))
+
+                (NP (NN 协商)))))))))
 </Parse>
 </Sentence>
 </Sentences>
