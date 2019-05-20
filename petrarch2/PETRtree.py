@@ -886,13 +886,13 @@ class VerbPhrase(Phrase):
             # Check for source in preps
             source_options = []
             target_options = up
-            print("target_options:",target_options)
+            # print("target_options:",target_options)
             for child in self.children:
-                print("aaa:",child.label)
+                # print("aaa:",child.label)
                 if(child.label=="IP"):
                     for item in child.children:
                         if(item.label=="NP"):
-                            print("bbb:",item.get_meaning())
+                            # print("bbb:",item.get_meaning())
                             source_options+=item.get_meaning()
 
                 # if isinstance(child, PrepPhrase):
