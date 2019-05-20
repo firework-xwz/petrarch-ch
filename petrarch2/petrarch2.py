@@ -201,11 +201,11 @@ def do_coding(event_dict):
     times = 0
     sents = 0
 #判定当前输出文件是否存在，若存在则删除
-    path = "F:\git_localRepository\petrarch2_test\petrarch_ch_04\petrarch-ch\\"
-    dirs = os.listdir(path)
-    for file in dirs:
-        if file == 'evts.test.txt':
-            os.remove(path+file)
+    # path = "F:\git_localRepository\petrarch2_test\petrarch_ch_04\petrarch-ch\\"
+    # dirs = os.listdir(path)
+    # for file in dirs:
+    #     if file == 'evts.test.txt':
+    #         os.remove(path+file)
 
 
 

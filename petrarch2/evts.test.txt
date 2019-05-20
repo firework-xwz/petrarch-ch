@@ -1,0 +1,124 @@
+
+
+ 新华社 报道 习近平 和 普京 在 符拉迪沃斯托克 出席 对话会
+(IP (NP (NR 新华社  )   )  (VP (VV 报道  )  (IP (NP (NP (NR 习近平  )   )  (CC 和  )  (NP (NR 普京  )   )   )  (VP (PP (P 在  )  (NP (NR 符拉迪沃斯托克  )   )   )  (VP (VV 出席  )  (NP (NN 对话会  )   )   )   )   )   )   )  
+
+
+ 新华社 报道 习近平 和 普京 在 符拉迪沃斯托克 出席 对话会
+(IP (NP (NR 新华社  )   )  (VP (VV 报道  )  (IP (NP (NP (NR 习近平  )   )  (CC 和  )  (NP (NR 普京  )   )   )  (VP (PP (P 在  )  (NP (NR 符拉迪沃斯托克  )   )   )  (VP (VV 出席  )  (NP (NN 对话会  )   )   )   )   )   )   )  
+
+
+ 新华社 报道 习近平 和 普京 在 符拉迪沃斯托克 出席 对话会
+(IP (NP (NR 新华社  )   )  (VP (VV 报道  )  (IP (NP (NP (NR 习近平  )   )  (CC 和  )  (NP (NR 普京  )   )   )  (VP (PP (P 在  )  (NP (NR 符拉迪沃斯托克  )   )   )  (VP (VV 出席  )  (NP (NN 对话会  )   )   )   )   )   )   )  
+
+
+ 新华社 报道 习近平 和 普京 在 符拉迪沃斯托克 出席 对话会
+(IP (NP (NR 新华社  )   )  (VP (VV 报道  )  (IP (NP (NP (NR 习近平  )   )  (CC 和  )  (NP (NR 普京  )   )   )  (VP (PP (P 在  )  (NP (NR 符拉迪沃斯托克  )   )   )  (VP (VV 出席  )  (NP (NN 对话会  )   )   )   )   )   )   )  
+
+
+ 多米尼加 报道 习近平 和 普京 在 符拉迪沃斯托克 出席 对话会
+(IP (NP (NR 多米尼加  )   )  (VP (VV 报道  )  (IP (NP (NP (NR 习近平  )   )  (CC 和  )  (NP (NR 普京  )   )   )  (VP (PP (P 在  )  (NP (NR 符拉迪沃斯托克  )   )   )  (VP (VV 出席  )  (NP (NN 对话会  )   )   )   )   )   )   )  
+([u'DOM'], ([u'CHNGOV', u'RUSGOV'], u'', 8192), 0) 0
+
+
+ 多米尼加 建立 习近平 和 普京 在 符拉迪沃斯托克 出席 对话会
+(IP (NP (NR 多米尼加  )   )  (VP (VV 建立  )  (IP (NP (NP (NR 习近平  )   )  (CC 和  )  (NP (NR 普京  )   )   )  (VP (PP (P 在  )  (NP (NR 符拉迪沃斯托克  )   )   )  (VP (VV 出席  )  (NP (NN 对话会  )   )   )   )   )   )   )  
+([u'DOM'], ([u'CHNGOV', u'RUSGOV'], u'', 8192), 4097) 013
+
+
+ 新华社 报道 习近平 和 普京 在 符拉迪沃斯托克 出席 对话会
+(IP (NP (NR 新华社  )   )  (VP (VV 报道  )  (IP (NP (NP (NR 习近平  )   )  (CC 和  )  (NP (NR 普京  )   )   )  (VP (PP (P 在  )  (NP (NR 符拉迪沃斯托克  )   )   )  (VP (VV 出席  )  (NP (NN 对话会  )   )   )   )   )   )   )  
+([u'CHNGOV', u'RUSGOV'], u'', 8192) 020
+
+
+ 多米尼加 指责 习近平 和 普京 在 符拉迪沃斯托克 出席 对话会
+(IP (NP (NR 多米尼加  )   )  (VP (VV 指责  )  (IP (NP (NP (NR 习近平  )   )  (CC 和  )  (NP (NR 普京  )   )   )  (VP (PP (P 在  )  (NP (NR 符拉迪沃斯托克  )   )   )  (VP (VV 出席  )  (NP (NN 对话会  )   )   )   )   )   )   )  
+([u'DOM'], ([u'CHNGOV', u'RUSGOV'], u'', 8192), 8256) 023
+
+
+ 科特迪瓦 最高 法院 决定 允许 奥巴马 参加 即将 到来 的 选举
+(IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 奥巴马  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
+
+
+ 科特迪瓦 最高 法院 决定 允许 奥巴马 参加 即将 到来 的 选举
+(IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 奥巴马  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
+
+
+ 科特迪瓦 最高 法院 决定 允许 奥巴马 参加 即将 到来 的 选举
+(IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 奥巴马  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
+
+
+ 科特迪瓦 最高 法院 决定 允许 奥巴马 参加 即将 到来 的 选举
+(IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 奥巴马  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
+
+
+ 科特迪瓦 最高 法院 决定 允许 奥巴马 参加 即将 到来 的 选举
+(IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 奥巴马  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
+
+
+ 科特迪瓦 最高 法院 决定 允许 奥巴马 参加 即将 到来 的 选举
+(IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 奥巴马  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
+
+
+ 科特迪瓦 最高 法院 决定 允许 奥巴马 参加 即将 到来 的 选举
+(IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 奥巴马  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
+
+
+ 科特迪瓦 最高 法院 决定 允许 奥巴马 参加 即将 到来 的 选举
+(IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 奥巴马  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
+
+
+ 科特迪瓦 最高 法院 决定 允许 奥巴马 参加 即将 到来 的 选举
+(IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 奥巴马  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
+([u'KTD'], u'', 4101) 019
+
+
+ 科特迪瓦 最高 法院 决定 允许 奥巴马 参加 即将 到来 的 选举
+(IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 奥巴马  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
+
+
+ 科特迪瓦 最高 法院 决定 允许 奥巴马 参加 即将 到来 的 选举
+(IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 奥巴马  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
+
+
+ 科特迪瓦 最高 法院 决定 允许 习近平 参加 即将 到来 的 选举
+(IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 习近平  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
+
+
+ 科特迪瓦 最高 法院 决定 允许 习近平 参加 即将 到来 的 选举
+(IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 习近平  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
+
+
+ 科特迪瓦 最高 法院 决定 允许 习近平 参加 即将 到来 的 选举
+(IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 习近平  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
+
+
+ 科特迪瓦 最高 法院 决定 允许 习近平 参加 即将 到来 的 选举
+(IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 习近平  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
+
+
+ 科特迪瓦 允许 奥巴马 参加 即将 到来 的 选举
+(IP (NP (NP (NR 科特迪瓦  )   )  (VP (VV 允许  )  (NP (NR 奥巴马  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )  
+
+
+ 科特迪瓦 最高 法院 决定 允许 习近平 参加 即将 到来 的 选举
+(IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 习近平  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
+([u'KTD'], u'', 4101) 019
+
+
+ 习近平 报道 他 和 普京 在 符拉迪沃斯托克 出席 对话会
+(IP (NP (NR 习近平  )   )  (VP (VV 报道  )  (IP (NP (NP (NR 他  )   )  (CC 和  )  (NP (NR 普京  )   )   )  (VP (PP (P 在  )  (NP (NR 符拉迪沃斯托克  )   )   )  (VP (VV 出席  )  (NP (NN 对话会  )   )   )   )   )   )   )  
+([u'CHNGOV'], ([u'RUSGOV'], u'', 8192), 0) 0
+
+
+ 习近平 报道 他 和 普京 在 符拉迪沃斯托克 出席 对话会
+(IP (NP (NR 习近平  )   )  (VP (VV 报道  )  (IP (NP (NP (NR 他  )   )  (CC 和  )  (NP (NR 普京  )   )   )  (VP (PP (P 在  )  (NP (NR 符拉迪沃斯托克  )   )   )  (VP (VV 出席  )  (NP (NN 对话会  )   )   )   )   )   )   )  
+([u'CHNGOV'], ([u'RUSGOV'], u'', 8192), 0) 0
+
+
+ 科特迪瓦 最高 法院 决定 允许 奥巴马 参加 即将 到来 的 选举
+(IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 奥巴马  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
+
+
+ 科特迪瓦 最高 法院 决定 允许 习近平 参加 即将 到来 的 选举
+(IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 习近平  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  

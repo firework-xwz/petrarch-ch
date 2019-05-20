@@ -96,11 +96,11 @@ class Phrase:
                 Combined meanings of the phrases children
         """
 
-        if self.label in "SBAR":
+        if self.label in "IP":
             lower = map(
                 lambda b: b.get_meaning(),
                 filter(
-                    lambda a: a.label in "SBARVP",
+                    lambda a: a.label in "IPVP",
                     self.children))
             events = []
             for item in lower:
@@ -109,6 +109,8 @@ class Phrase:
                 self.meaning = events
                 return events
 
+        print(("IP"))
+        print(self.meaning)
         return self.meaning
 
     def get_text(self):
@@ -823,7 +825,7 @@ class VerbPhrase(Phrase):
         else:
             curparse = self.get_parse_string()
 
-        s_options = filter(lambda a: a.label in "SBAR", self.children)
+        s_options = filter(lambda a: a.label in "IP", self.children)
 
         def resolve_events(event):
             """
@@ -872,6 +874,8 @@ class VerbPhrase(Phrase):
                 third = utilities.combine_code(c, event[2])
             e = (first, second, third)
             self.sentence.metadata[id(e)] = [event, c, meta, 2]
+            print("resolve")
+            print((returns+[e]))
             return returns + [e]
 
         events = []
@@ -1137,9 +1141,9 @@ class VerbPhrase(Phrase):
                 NPcodes += child.get_meaning()
             elif isinstance(child, PrepPhrase):
                 PPcodes += (child.get_meaning())
-            elif False and child.label in "SBAR":
+            elif False and child.label in "IP":
                 for ch in (
-                        child.children[-1].children if child.label == "SBAR" else child.children):
+                        child.children[-1].children if child.label == "IP" else child.children):
                     if isinstance(ch, NounPhrase):
                         Scodes += ch.get_meaning()
                     elif isinstance(ch, PrepPhrase):
