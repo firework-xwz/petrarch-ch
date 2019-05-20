@@ -874,6 +874,7 @@ class VerbPhrase(Phrase):
         events = []
         up = self.get_upper()
         if self.check_passive() or (passive and not c):
+            print("passive:",self.check_passive())
             # Check for source in preps
             source_options = []
             target_options = up
@@ -897,7 +898,7 @@ class VerbPhrase(Phrase):
                     events.append(e)
                     self.sentence.metadata[id(e)] = [None, e, meta, 3]
                     self.meaning = events
-                    print("event:",events)
+                    print("event_passive:",events)
                     return events
 
         up = "" if up in ['', [], [""], ["~"], ["~~"]] else up
@@ -980,27 +981,32 @@ class VerbPhrase(Phrase):
                       Whether or not it is passive
         """
 # --          print('cp-entry')
-        self.check_passive = self.return_passive
-        if True:
-            if self.children[0].label in ["VBD", "VBN"]:
-                level = self.parent
-                if level.label == "NP":
-                    self.passive = True
-                    return True
-                for i in range(2):
-                    if level and isinstance(level, VerbPhrase):
-                        if level.children[0].text in [
-                                "AM", "IS", "ARE", "WAS", "WERE", "BE", "BEEN", "BEING"]:
-                            self.passive = True
-                            return True
-                    level = level.parent
-                    if not level:
-                        break
-
+        print("self.children[0] in check_passive:",self.children[0].label)
+        if(self.children[0].label=="SB"or self.children[0].label=="LB"):
+            return True
         else:
-            print("Error in passive check")
-        self.passive = False
-        return False
+            return False
+        # self.check_passive = self.return_passive
+        # if True:
+        #     if self.children[0].label in ["VBD", "VBN"]:
+        #         level = self.parent
+        #         if level.label == "NP":
+        #             self.passive = True
+        #             return True
+        #         for i in range(2):
+        #             if level and isinstance(level, VerbPhrase):
+        #                 if level.children[0].text in [
+        #                         "AM", "IS", "ARE", "WAS", "WERE", "BE", "BEEN", "BEING"]:
+        #                     self.passive = True
+        #                     return True
+        #             level = level.parent
+        #             if not level:
+        #                 break
+        #
+        # else:
+        #     print("Error in passive check")
+        # self.passive = False
+        # return False
 
     def return_S(self):
         # --          print('rS-entry')
@@ -1191,19 +1197,26 @@ class VerbPhrase(Phrase):
         if 'AND' in map(lambda a: a.text, self.children):
             return 0, 0, ['and']
         patterns = PETRglobals.VerbDict['phrases']
-        verb = "TO" if self.children[0].label == "TO" else self.get_head()[0]
+        print("self.children[0].label:",self.children[0].label)
+        # if(self.children[0].label=="LB"):
+        #     print("IP in VP",self.children[1].children[1].get_head()[0])
+            # verb=self.children[1].children[1].get_head()[0]
+        # verb = "TO" if self.children[0].label == "TO" else self.get_head()[0]
+        verb=self.children[1].children[1].get_head()[0] if self.children[0].label=="LB"else self.get_head()[0]
         meta.append(verb)
         meaning = ""
         path = dict
         passive = False
-
+        # if (self.children[0].label == "SB"):
+        #     passive=True
         print("verb:",json.dumps(verb, ensure_ascii=False, encoding='utf-8'))
+        # print("passive:",passive)
 
         if verb in dict:
             code = 0
             # print("verb:", verb)
             path = dict[verb]
-            print(json.dumps(path, ensure_ascii=False, encoding='utf-8'))
+            print("path:",json.dumps(path, ensure_ascii=False, encoding='utf-8'))
             if ['#'] == path.keys():
                 #print("123:",path.keys())
                 path = path['#']
@@ -1211,12 +1224,10 @@ class VerbPhrase(Phrase):
                     try:
                         code = path['#']['code']
                         meaning = path['#']['meaning']
-
                         self.verbclass = meaning if not meaning == "" else verb
                         if not code == '':
                             active, passive = utilities.convert_code(code)
                             self.code = active
-                            print("active:",active)
                     except:
                         self.code = (0, 0, [])
             else:
@@ -1250,10 +1261,9 @@ class VerbPhrase(Phrase):
             # --              print('++3',match['line'])
             meta.append(match['line'])
             print("match:",match)
+            print("match_code:",match['code'])
             print(json.dumps(match, ensure_ascii=False, encoding='utf-8'))
             active, passive = utilities.convert_code(match['code'])
-            print("code:")
-            print(utilities.convert_code(4098, 0))
             self.code = active
         if passive and not active:
             self.check_passive = lambda: True
@@ -1370,7 +1380,6 @@ class VerbPhrase(Phrase):
         """
         meaning = self.verbclass
         code = self.code
-
         def match_phrase(path, phrase):
             # Having matched the head of the phrase, this matches the full noun
             # phrase, if specified
@@ -1410,7 +1419,6 @@ class VerbPhrase(Phrase):
 
                 if head and head in path:
                     subpath = path[head]
-
                     # First check within the NP for PP's
                     skip = lambda a: False
                     match = reroute(
