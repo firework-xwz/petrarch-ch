@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sentences>
+<Sentence date="20180908" id="65567_1" sentence="True" source="NULL">
+<Text>
+科特迪瓦最高法院决定允许习近平参加即将到来的选举
+</Text>
+<Parse>
+(ROOT
+
+  (IP
+
+    (NP
+
+      (NP (NR 科特迪瓦))
+
+      (ADJP (JJ 最高))
+
+      (NP (NN 法院)))
+
+    (VP (VV 决定)
+
+      (IP
+
+        (VP (VV 允许)
+
+          (NP (NR 习近平))
+
+          (IP
+
+            (VP (VV 参加)
+
+              (NP
+
+                (CP
+
+                  (IP
+
+                    (VP
+
+                      (ADVP (AD 即将))
+
+                      (VP (VV 到来))))
+
+                  (DEC 的))
+
+                (NP (NN 选举))))))))))
+</Parse>
+</Sentence>
+</Sentences>
