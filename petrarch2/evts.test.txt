@@ -124,3 +124,5 @@
 (IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 习近平  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
  科特迪瓦 最高 法院 决定 允许 习近平 参加 即将 到来 的 选举
 (IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 习近平  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
+ 科特迪瓦 最高 法院 决定 允许 习近平 参加 即将 到来 的 选举
+(IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 习近平  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
