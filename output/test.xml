@@ -1,75 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sentences>
-<Sentence date="20180908" id="65567_1" sentence="True" source="NULL">
+<Sentence date="20180908" id="﻿65567_1" sentence="True" source="NULL">
 <Text>
-中国和俄国在会谈中审视了《板门店宣言》履行情况，并就进一步积极落实《板门店宣言》开展了真诚协商
+中国在会谈中审视了《板门店宣言》履行情况，并就进一步积极落实《板门店宣言》开展了真诚协商
 </Text>
 <Parse>
-(ROOT
-
-  (IP
-
-    (NP (NR 中国)
-
-      (CC 和)
-
-      (NR 俄罗斯))
-
-    (VP
-
-      (PP (P 在)
-
-        (LCP
-
-          (NP (NN 会谈))
-
-          (LC 中)))
-
-      (VP (VV 审视) (AS 了)
-
-          (NP (PU 《)
-
-            (NP (NR 板门店))
-
-            (NP (NN 宣言))
-
-            (PU 》))
-
-          (VP
-
-            (VP (VV 履行)
-
-              (NP (NN 情况)))
-
-            (PU ，)
-
-            (VP
-
-              (ADVP (AD 并))
-
-              (ADVP (AD 就))
-
-              (ADVP (AD 进一步))
-
-              (ADVP (AD 积极))
-
-              (VP (VV 落实)
-
-                (NP (PU 《)
-
-                  (NP (NR 板门店))
-
-                  (NP (NN 宣言))
-
-                  (PU 》))))
-
-            (VP (VV 开展) (AS 了)
-
-              (NP
-
-                (ADJP (JJ 真诚))
-
-                (NP (NN 协商)))))))))
+(ROOT
+  (IP
+    (NP (NR 中国))
+    (VP
+      (PP (P 在)
+        (LCP
+          (NP (NN 会谈))
+          (LC 中)))
+      (VP (VV 审视) (AS 了)
+        (IP
+          (NP (PU 《)
+            (NP (NR 板门店))
+            (NP (NN 宣言))
+            (PU 》))
+          (VP
+            (VP (VV 履行)
+              (NP (NN 情况)))
+            (PU ，)
+            (VP
+              (ADVP (AD 并))
+              (ADVP (AD 就))
+              (ADVP (AD 进一步))
+              (ADVP (AD 积极))
+              (VP (VV 落实)
+                (NP (PU 《)
+                  (NP (NR 板门店))
+                  (NP (NN 宣言))
+                  (PU 》))))
+            (VP (VV 开展) (AS 了)
+              (NP
+                (ADJP (JJ 真诚))
+                (NP (NN 协商))))))))))
+</Parse>
+</Sentence>
+<Sentence date="20180908" id="65568_1" sentence="True" source="NULL">
+<Text>
+中国旨在为联合国主导的叙利亚和平进程寻求政治支持，并为缓解叙利亚人道主义灾难募集善款
+</Text>
+<Parse>
+(ROOT
+  (IP
+    (NP (NR 中国))
+    (VP
+      (VP (VV 旨在)
+        (NP
+          (CP
+            (IP
+              (VP
+                (PP (P 为)
+                  (NP (NR 联合国)))
+                (VP (VV 主导))))
+            (DEC 的))
+          (NP (NR 叙利亚))
+          (NP (NN 和平) (NN 进程))))
+      (VP (VV 寻求)
+        (NP (NN 政治) (NN 支持)))
+      (PU ，)
+      (CC 并)
+      (VP
+        (PP (P 为)
+          (IP
+            (VP (VV 缓解)
+              (NP
+                (NP (NR 叙利亚))
+                (NP (NN 人道) (NN 主义) (NN 灾难))))))
+        (VP (VV 募集)
+          (NP (NN 善款)))))))
+</Parse>
+</Sentence>
+<Sentence date="20180908" id="65569_1" sentence="True" source="NULL">
+<Text>
+中国抵达苏瓦港，对斐济进行为期8天的友好访问并提供人道主义医疗服务
+</Text>
+<Parse>
+(ROOT
+  (IP
+    (NP (NR 中国))
+    (VP
+      (VP (VV 抵达)
+        (NP (NR 苏瓦港)))
+      (PU ，)
+      (VP
+        (PP (P 对)
+          (NP (NR 斐济)))
+        (VP
+          (VP (VV 进行)
+            (NP
+              (CP
+                (IP
+                  (VP (VV 为期)
+                    (QP (CD 8)
+                      (CLP (M 天)))))
+                (DEC 的))
+              (ADJP (JJ 友好))
+              (NP (NN 访问))))
+          (AD 并)
+          (VP (VV 提供)
+            (NP (NN 人道) (NN 主义) (NN 医疗) (NN 服务))))))))
 </Parse>
 </Sentence>
 </Sentences>

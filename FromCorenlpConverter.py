@@ -1,5 +1,6 @@
 import glob
 import logging
+import json
 from stanfordcorenlp import StanfordCoreNLP
 from PetrXmlConverter import *
 
@@ -23,19 +24,27 @@ class FromCorenlpConverter(PetrXmlConverter):
     def generate_events(self):
         with open(self.input_path, 'r') as source:
             for line in source.readlines():
-                properties = line.split('|')
-                event = {
-                    Attr.id: properties[0],
-                    Attr.date: properties[4].split(' ')[0].replace('-', ''),
-                    Attr.source: properties[6],
-                    Attr.url: properties[9]
-                }
-                content = re.sub(r'\s', '', properties[8])
-                # parse = self.parse(content)
-                # event[Attr.content] = self.sep_sentence(parse)
-                event[Attr.content] = self.sep_sentence(content)
-                print('parse event {0}'.format(event[Attr.id]))
-                self.events.append(event)
+                if not len(line) == 0:
+                    properties = line.replace('\n', '').split('|')
+                    print json.dumps(properties, ensure_ascii=False, encoding='utf-8')
+                    print '-----------------------'
+                    print 'id(0)\t', properties[0]
+                    print 'date(4)\t', properties[4]
+                    print 'source(6)\t', properties[6]
+                    print 'content(8)\t', properties[8]
+                    print 'url(9)\t', properties[9]
+                    event = {
+                        Attr.id: properties[0],
+                        Attr.date: properties[4].split(' ')[0].replace('-', ''),
+                        Attr.source: properties[6],
+                        Attr.url: properties[9]
+                    }
+                    content = re.sub(r'\s', '', properties[8])
+                    # parse = self.parse(content)
+                    # event[Attr.content] = self.sep_sentence(parse)
+                    event[Attr.content] = self.sep_sentence(content)
+                    print('parse event {0}'.format(event[Attr.id]))
+                    self.events.append(event)
 
     def parse(self, text):
         return self.nlp.parse(text)
