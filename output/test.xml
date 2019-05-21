@@ -169,4 +169,19 @@
                 (NP (NN 选举))))))))))
 </Parse>
 </Sentence>
+<Sentence date="20180908" id="65572_1" sentence="True" source="NULL">
+<Text>
+中国揭露美国袭击南斯拉夫
+</Text>
+<Parse>
+(ROOT
+  (IP
+    (NP (NR 中国))
+    (VP (VV 揭露)
+      (IP
+        (NP (NR 美国))
+        (VP (VV 袭击)
+          (NP (NR 南斯拉夫)))))))
+</Parse>
+</Sentence>
 </Sentences>
