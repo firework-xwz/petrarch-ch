@@ -199,8 +199,8 @@ def do_coding(event_dict):
     logger = logging.getLogger('petr_log')
     times = 0
     sents = 0
-#判定当前输出文件是否存在，若存在则删除
-    # path = "F:\git_localRepository\petrarch2_test\petrarch_ch_04\petrarch-ch\\"
+
+    # path = ""
     # dirs = os.listdir(path)
     # for file in dirs:
     #     if file == 'evts.test.txt':
@@ -583,4 +583,6 @@ def run_pipeline(data, out_file=None, config=None, write_output=True,
 
 
 if __name__ == '__main__':
+    # f_handler = open('out.log', 'w')
+    # sys.stdout = f_handler
     main()
