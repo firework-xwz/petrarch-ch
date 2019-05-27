@@ -1283,8 +1283,12 @@ class VerbPhrase(Phrase):
                 verb = self.children[1].children[1].get_head()[0]
             else:
                 verb=self.get_head()[0]
+        # elif(self.children[0].label=="ADVP"):
+        #     verb=self.children[1].get_meaning()
+
         else:
             verb = self.get_head()[0]
+
         # verb=self.children[1].children[1].get_head()[0] if self.children[0].label=="LB"else self.get_head()[0]
         meta.append(verb)
         meaning = ""
@@ -1311,7 +1315,9 @@ class VerbPhrase(Phrase):
                         meaning = path['#']['meaning']
                         self.verbclass = meaning if not meaning == "" else verb
                         if not code == '':
+                            # print("s:",code)
                             active, passive = utilities.convert_code(code)
+                            print(active)
                             self.code = active
                             print("line 1223: verb_code: ", utilities.convert_code(active, 0))
                     except:

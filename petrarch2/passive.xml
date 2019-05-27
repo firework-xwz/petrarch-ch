@@ -291,8 +291,8 @@
 </Parse>
 </Sentence>
 <Sentence date="20180908" id="65568_7" sentence="True" source="NULL">
-  <Text>
-瑞士表示驻日内瓦的两名苏联外交官已经被驱逐了
+<Text>
+瑞士宣称驻日内瓦的两名苏联外交官被驱逐了
 </Text>
 <Parse>
 (ROOT
@@ -301,7 +301,7 @@
 
     (NP (NR 瑞士))
 
-    (VP (VV 表示)
+    (VP (VV 宣称)
 
       (IP
 
@@ -325,13 +325,9 @@
 
           (NP (NN 外交官)))
 
-        (VP
+        (VP (SB 被)
 
-          (ADVP (AD 已经))
-
-          (VP (SB 被)
-
-            (VP (VV 驱逐) (AS 了))))))))
+          (VP (VV 驱逐) (AS 了)))))))
 </Parse>
 </Sentence>
 <Sentence date="20180908" id="65569_8" sentence="True" source="NULL">
