@@ -1,24 +1,24 @@
  中国 旨在 为 联合国 主导 的 叙利亚 和平 进程 寻求 政治 支持 ， 并 为 缓解 叙利亚 人道 主义 灾难 募集 善款
-(IP (NP (NR 中国  )   )  (VP (VP (VV 旨在  )  (NP (CP (IP (VP (PP (P 为  )  (NP (NR 联合国  )   )   )  (VP (VV 主导  )   )   )   )  (DEC 的  )   )  (NP (NR 叙利亚  )   )  (NP (NN 和平  )  (NN 进程  )   )   )   )  (VP (VV 寻求  )  (NP (NN 政治  )  (NN 支持  )   )   )  (PU ，  )  (CC 并  )  (VP (PP (P 为  )  (IP (VP (VV 缓解  )  (NP (NP (NR 叙利亚  )   )  (NP (NN 人道  )  (NN 主义  )  (NN 灾难  )   )   )   )   )   )  (VP (VV 募集  )  (NP (NN 善款  )   )   )   )   )   )
+(IP (NP (NR 中国  )   )  (VP (VP (VV 旨在  )  (NP (CP (IP (VP (PP (P 为  )  (NP (NR 联合国  )   )   )  (VP (VV 主导  )   )   )   )  (DEC 的  )   )  (NP (NR 叙利亚  )   )  (NP (NN 和平  )  (NN 进程  )   )   )   )  (VP (VV 寻求  )  (NP (NN 政治  )  (NN 支持  )   )   )  (PU ，  )  (CC 并  )  (VP (PP (P 为  )  (IP (VP (VV 缓解  )  (NP (NP (NR 叙利亚  )   )  (NP (NN 人道  )  (NN 主义  )  (NN 灾难  )   )   )   )   )   )  (VP (VV 募集  )  (NP (NN 善款  )   )   )   )   )   )  
 ([u'CHN'], u'', 8208) 026
 ([u'CHN'], u'', 8704) 025
  中国 抵达 苏瓦港 ， 对 斐济 进行 为期 8 天 的 友好 访问 并 提供 人道 主义 医疗 服务
-(IP (NP (NR 中国  )   )  (VP (VP (VV 抵达  )  (NP (NR 苏瓦港  )   )   )  (PU ，  )  (VP (PP (P 对  )  (NP (NR 斐济  )   )   )  (VP (VP (VV 进行  )  (NP (CP (IP (VP (VV 为期  )  (QP (CD 8  )  (CLP (M 天  )   )   )   )   )  (DEC 的  )   )  (ADJP (JJ 友好  )   )  (NP (NN 访问  )   )   )   )  (AD 并  )  (VP (VV 提供  )  (NP (NN 人道  )  (NN 主义  )  (NN 医疗  )  (NN 服务  )   )   )   )   )   )   )
+(IP (NP (NR 中国  )   )  (VP (VP (VV 抵达  )  (NP (NR 苏瓦港  )   )   )  (PU ，  )  (VP (PP (P 对  )  (NP (NR 斐济  )   )   )  (VP (VP (VV 进行  )  (NP (CP (IP (VP (VV 为期  )  (QP (CD 8  )  (CLP (M 天  )   )   )   )   )  (DEC 的  )   )  (ADJP (JJ 友好  )   )  (NP (NN 访问  )   )   )   )  (AD 并  )  (VP (VV 提供  )  (NP (NN 人道  )  (NN 主义  )  (NN 医疗  )  (NN 服务  )   )   )   )   )   )   )  
 ([u'CHN'], u'', 4108) 012
 ([u'CHN'], u'', 8304) 021
 ([u'CHN'], u'', 8320) 022
  新华社 报道 习近平 与 普京 在 符拉迪沃斯托克 出席 对话会
-(IP (NP (NR 新华社  )   )  (VP (VV 报道  )  (IP (NP (NR 习近平  )  (CC 与  )  (NR 普京  )   )  (VP (PP (P 在  )  (NP (NR 符拉迪沃斯托克  )   )   )  (VP (VV 出席  )  (NP (NN 对话会  )   )   )   )   )   )   )
+(IP (NP (NR 新华社  )   )  (VP (VV 报道  )  (IP (NP (NR 习近平  )  (CC 与  )  (NR 普京  )   )  (VP (PP (P 在  )  (NP (NR 符拉迪沃斯托克  )   )   )  (VP (VV 出席  )  (NP (NN 对话会  )   )   )   )   )   )   )  
 ([u'CHNGOV', u'RUSGOV'], u'', 8192) 020
  美国 指责 中国 与 南斯拉夫 建立 外交 关系
-(IP (NP (NR 美国  )   )  (VP (VV 指责  )  (NP (NR 中国  )  (CC 与  )  (NR 南斯拉夫  )   )  (IP (VP (VV 建立  )  (NP (NN 外交  )  (NN 关系  )   )   )   )   )   )
+(IP (NP (NR 美国  )   )  (VP (VV 指责  )  (NP (NR 中国  )  (CC 与  )  (NR 南斯拉夫  )   )  (IP (VP (VV 建立  )  (NP (NN 外交  )  (NN 关系  )   )   )   )   )   )  
 ([u'USA'], u'CHN', 8256) 023
 ([u'USA'], u'YU', 8256) 023
  中国 揭露 美国 袭击 南斯拉夫
-(IP (NP (NR 中国  )   )  (VP (VV 揭露  )  (IP (NP (NR 美国  )   )  (VP (VV 袭击  )  (NP (NR 南斯拉夫  )   )   )   )   )   )
+(IP (NP (NR 中国  )   )  (VP (VV 揭露  )  (IP (NP (NR 美国  )   )  (VP (VV 袭击  )  (NP (NR 南斯拉夫  )   )   )   )   )   )  
 ([u'CHN'], ([u'USA'], u'YU', 8704), 8256) 023
  中国 在 会谈 中 审视 了 《 板门店 宣言 》 履行 情况 ， 并 就 进一步 积极 落实 《 板门店 宣言 》 开展 了 真诚 协商
-(IP (NP (NR 中国  )   )  (VP (PP (P 在  )  (LCP (NP (NN 会谈  )   )  (LC 中  )   )   )  (VP (VV 审视  )  (AS 了  )  (IP (NP (PU 《  )  (NP (NR 板门店  )   )  (NP (NN 宣言  )   )  (PU 》  )   )  (VP (VP (VV 履行  )  (NP (NN 情况  )   )   )  (PU ，  )  (VP (ADVP (AD 并  )   )  (ADVP (AD 就  )   )  (ADVP (AD 进一步  )   )  (ADVP (AD 积极  )   )  (VP (VV 落实  )  (NP (PU 《  )  (NP (NR 板门店  )   )  (NP (NN 宣言  )   )  (PU 》  )   )   )   )  (VP (VV 开展  )  (AS 了  )  (NP (ADJP (JJ 真诚  )   )  (NP (NN 协商  )   )   )   )   )   )   )   )   )
+(IP (NP (NR 中国  )   )  (VP (PP (P 在  )  (LCP (NP (NN 会谈  )   )  (LC 中  )   )   )  (VP (VV 审视  )  (AS 了  )  (IP (NP (PU 《  )  (NP (NR 板门店  )   )  (NP (NN 宣言  )   )  (PU 》  )   )  (VP (VP (VV 履行  )  (NP (NN 情况  )   )   )  (PU ，  )  (VP (ADVP (AD 并  )   )  (ADVP (AD 就  )   )  (ADVP (AD 进一步  )   )  (ADVP (AD 积极  )   )  (VP (VV 落实  )  (NP (PU 《  )  (NP (NR 板门店  )   )  (NP (NN 宣言  )   )  (PU 》  )   )   )   )  (VP (VV 开展  )  (AS 了  )  (NP (ADJP (JJ 真诚  )   )  (NP (NN 协商  )   )   )   )   )   )   )   )   )  
 ([u'CHN'], u'', 8288) 024
 ([u'CHN'], u'', 8192) 020
 ([u'CHN'], u'', 8256) 023

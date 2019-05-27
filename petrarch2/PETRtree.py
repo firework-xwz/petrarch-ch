@@ -1298,7 +1298,7 @@ class VerbPhrase(Phrase):
         #     passive=True
         print("verb:",json.dumps(verb, ensure_ascii=False, encoding='utf-8'))
         # print("passive:",passive)
-        print("line 1204: verb: ",json.dumps(verb, ensure_ascii=False, encoding='utf-8'))
+        print("line 1267: verb: ",json.dumps(verb, ensure_ascii=False, encoding='utf-8'))
 
         if verb in dict:
             code = 0

@@ -13,7 +13,7 @@ if __name__ == "__main__":
     input_path = 'input/'
     output_path = 'output/'
     corenlp_path = 'stanford-corenlp-full-2018-10-05'
-    port = 200
+    port = 400
 
     # converter = FromCorenlpConverter(input_path + file_name + '.txt', '', corenlp_path, port)
     #
