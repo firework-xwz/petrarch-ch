@@ -958,7 +958,7 @@ class VerbPhrase(Phrase):
         if not low:
             low = ""
         if neg:
-            c = 0
+            c = c * (-1)
 
         if isinstance(low, list):
             for event in low:
@@ -1160,8 +1160,13 @@ class VerbPhrase(Phrase):
 
         events = []
 
+        negated = False
         if len(self.children) > 1:
-            negated = (lower and self.children[1].text) == "NOT"
+            # negated = (lower and self.children[1].text) == "NOT"
+            for item in self.children:
+                if item.label == "ADVP":
+                    if "没有"or"不" in item.get_parse_string:
+                        negated = True
         else:
             negated = False
 
