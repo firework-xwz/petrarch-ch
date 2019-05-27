@@ -1,42 +1,370 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sentences>
-<Sentence date="20180908" id="﻿65567_1" sentence="True" source="NULL">
+<Sentence date="20180908" id="﻿65572_1" sentence="True" source="NULL">
 <Text>
-南斯拉夫被美国袭击
+阿斯瓦德周日将被赞比亚引渡至英国
 </Text>
 <Parse>
 (ROOT
 
   (IP
 
-    (NP (NR 南斯拉夫))
+    (NP (NR 阿斯瓦德))
 
-    (VP (LB 被)
+    (VP
+
+      (NP (NT 周日))
+
+      (ADVP (AD 将))
+
+      (VP (SB 被)
+
+        (IP
+
+          (NP (NR 赞比亚))
+
+          (VP
+
+            (VRD (VV 引渡) (VV 至))
+
+            (NP (NR 英国))))))))
+</Parse>
+</Sentence>
+<Sentence date="20180908" id="65572_2" sentence="True" source="NULL">
+<Text>
+斯里兰卡境内有可能会发生更多的袭击案件，因为发动袭击的极端组织仍有成员未被逮捕
+</Text>
+<Parse>
+(ROOT
+
+  (IP
+
+    (NP
+
+      (NP (NR 斯里兰卡))
+
+      (NP (NN 境内)))
+
+    (VP
+
+      (VP (VE 有)
+
+        (NP (NN 可能)))
+
+      (VP (VV 会)
+
+        (VP (VV 发生)
+
+          (NP
+
+            (DNP
+
+              (QP
+
+                (ADVP (AD 更))
+
+                (QP (CD 多)))
+
+              (DEG 的))
+
+            (NP (NN 袭击) (NN 案件))))))
+
+    (PU ，)
+
+    (PP (P 因为)
 
       (IP
 
-        (NP (NR 美国))
+        (NP
 
-        (VP (VV 袭击))))))
+          (CP
+
+            (IP
+
+              (VP (VV 发动)
+
+                (NP (NN 袭击))))
+
+            (DEC 的))
+
+          (ADJP (JJ 极端))
+
+          (NP (NN 组织)))
+
+        (VP
+
+          (ADVP (AD 仍))
+
+          (VP (VE 有)
+
+            (IP
+
+              (NP (NN 成员))
+
+              (VP
+
+                (ADVP (AD 未))
+
+                (VP (SB 被)
+
+                  (VP (VV 逮捕)))))))))))
 </Parse>
 </Sentence>
-<Sentence date="20180908" id="﻿65567_2" sentence="True" source="NULL">
+<Sentence date="20180908" id="65572_3" sentence="True" source="NULL">
 <Text>
-南斯拉夫被袭击
+一名美国公民因涉嫌参与上月在热那亚举行的八国集团峰会期间的骚乱，已在意大利接受调查
 </Text>
 <Parse>
 (ROOT
 
   (IP
 
-    (NP (NR 南斯拉夫))
+    (NP
+
+      (QP (CD 一)
+
+        (CLP (M 名)))
+
+      (NP (NR 美国))
+
+      (NP (NN 公民)))
+
+    (VP
+
+      (PP (P 因)
+
+        (IP
+
+          (VP (VV 涉嫌)
+
+            (NP
+
+              (DNP
+
+                (NP
+
+                  (CP
+
+                    (IP
+
+                      (VP (VV 参与)
+
+                        (NP
+
+                          (CP
+
+                            (IP
+
+                              (VP
+
+                                (NP
+
+                                  (DP (DT 上))
+
+                                  (NP (NN 月)))
+
+                                (PP (P 在)
+
+                                  (NP (NR 热那亚)))
+
+                                (VP (VV 举行))))
+
+                            (DEC 的))
+
+                          (NP (NR 八国) (NN 集团))
+
+                          (NP (NN 峰会))))))
+
+                  (NP (NN 期间)))
+
+                (DEG 的))
+
+              (NP (NN 骚乱))))))
+
+      (PU ，)
+
+      (VP
+
+        (ADVP (AD 已))
+
+        (PP (P 在)
+
+          (NP (NR 意大利)))
+
+        (VP (VV 接受)
+
+          (NP (NN 调查)))))))
+</Parse>
+</Sentence>
+<Sentence date="20180908" id="65572_4" sentence="True" source="NULL">
+<Text>
+在埃塞俄比亚，政治犯遭受酷刑折磨
+</Text>
+<Parse>
+(ROOT
+
+  (IP
+
+    (PP (P 在)
+
+      (NP (NR 埃塞俄比亚)))
+
+    (PU ，)
+
+    (NP (NN 政治犯))
+
+    (VP (VV 遭受)
+
+      (NP (NN 酷刑) (NN 折磨)))))
+</Parse>
+</Sentence>
+<Sentence date="20180908" id="65572_5" sentence="True" source="NULL">
+<Text>
+伊朗情报机构遭欧盟制裁，被控涉嫌“政治暗杀”
+</Text>
+<Parse>
+(ROOT
+
+  (IP
+
+    (NP
+
+      (NP (NR 伊朗))
+
+      (NP (NN 情报) (NN 机构)))
+
+    (VP
+
+      (VP (VV 遭)
+
+        (NP
+
+          (NP (NR 欧盟))
+
+          (NP (NN 制裁))))
+
+      (PU ，)
+
+      (VP (SB 被)
+
+        (VP (VV 控)
+
+          (IP
+
+            (VP (VV 涉嫌)
+
+              (NP (PU “)
+
+                (NP (NN 政治) (NN 暗杀))
+
+                (PU ”)))))))))
+</Parse>
+</Sentence>
+<Sentence date="20180908" id="65567_6" sentence="True" source="NULL">
+<Text>
+中国驻南斯拉夫大使馆被北约袭击
+</Text>
+<Parse>
+(ROOT
+
+  (NP
+
+    (NP
+
+      (NP (NR 中国))
+
+      (CP
+
+        (IP
+
+          (VP (VV 驻)
+
+            (NP (NR 南斯拉夫)))))
+
+      (NP (NN 大使馆)))
+
+    (VP (SB 被)
+
+        (NP (NR 北约))
+
+        (VP (VV 袭击)))))
+</Parse>
+</Sentence>
+<Sentence date="20180908" id="65568_7" sentence="True" source="NULL">
+<Text>
+瑞士于今日表示驻日内瓦的两名苏联外交官已经被驱逐了
+</Text>
+<Parse>
+(ROOT
+
+  (IP
+
+    (NP (NR 瑞士))
+
+    (PP (P 于)
+
+      (NP (NT 今日)))
+
+    (VV 表示) (PU ，)
+
+    (NP
+
+      (CP
+
+        (IP
+
+          (VP (VV 驻)
+
+            (NP (NR 日内瓦))))
+
+        (DEC 的))
+
+      (QP (CD 两)
+
+        (CLP (M 名)))
+
+      (NP (NR 苏联))
+
+      (NP (NN 外交官)))
+
+    (VP
+
+      (ADVP (AD 已经))
+
+      (VP (SB 被)
+
+        (VP (VV 驱逐) (AS 了))))))
+</Parse>
+</Sentence>
+<Sentence date="20180908" id="65569_8" sentence="True" source="NULL">
+<Text>
+中国驻南斯拉夫大使馆被袭击
+</Text>
+<Parse>
+(ROOT
+
+  (IP
+
+    (NP
+
+      (NP (NR 中国))
+
+      (CP
+
+        (IP
+
+          (VP (VV 驻)
+
+            (NP (NR 南斯拉夫)))))
+
+      (NP (NN 大使馆)))
 
     (VP (SB 被)
 
       (VP (VV 袭击)))))
 </Parse>
 </Sentence>
-<Sentence date="20180908" id="65567_3" sentence="True" source="NULL">
+<Sentence date="20180908" id="65570_9" sentence="True" source="NULL">
 <Text>
 印度被英国所统治
 </Text>
@@ -58,30 +386,30 @@
           (VP (VV 统治)))))))
 </Parse>
 </Sentence>
-<Sentence date="20180908" id="﻿65567_4" sentence="True" source="NULL">
+<Sentence date="20180908" id="65571_10" sentence="True" source="NULL">
 <Text>
-中国指责南斯拉夫被美国袭击
+朝鲜战争由美国所发起
 </Text>
 <Parse>
 (ROOT
 
   (IP
 
-    (NP (NR 中国))
+    (NP
 
-    (VP (VV 指责)
+      (NP (NR 朝鲜))
 
-      (NP (NR 南斯拉夫))
+      (NP (NN 战争)))
 
-      (IP
+    (VP
 
-        (VP (LB 被)
+      (PP (P 由)
 
-          (IP
+        (NP (NR 美国)))
 
-            (NP (NR 美国))
+      (VP (MSP 所)
 
-            (VP (VV 袭击))))))))
+        (VP (VV 发起))))))
 </Parse>
 </Sentence>
 </Sentences>

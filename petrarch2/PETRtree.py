@@ -927,6 +927,9 @@ class VerbPhrase(Phrase):
                         if(item.label=="NP"):
                             # print("bbb:",item.get_meaning())
                             source_options+=item.get_meaning()
+                elif(child.label=="NP"):
+                    source_options+=child.get_meaning()
+
 
                 # if isinstance(child, PrepPhrase):
                 #     if child.get_prep() in ["BY", "FROM", "IN"]:
@@ -1255,7 +1258,18 @@ class VerbPhrase(Phrase):
         #     print("IP in VP",self.children[1].children[1].get_head()[0])
             # verb=self.children[1].children[1].get_head()[0]
         # verb = "TO" if self.children[0].label == "TO" else self.get_head()[0]
-        verb=self.children[1].children[1].get_head()[0] if self.children[0].label=="LB"else self.get_head()[0]
+
+
+        if(self.children[0].label=="LB"):
+            verb=self.children[1].children[1].get_head()[0]
+        elif(self.children[0].label=="SB"):
+            if(self.children[1].label=="IP"):
+                verb = self.children[1].children[1].get_head()[0]
+            else:
+                verb=self.get_head()[0]
+        else:
+            verb = self.get_head()[0]
+        # verb=self.children[1].children[1].get_head()[0] if self.children[0].label=="LB"else self.get_head()[0]
         meta.append(verb)
         meaning = ""
         path = dict
