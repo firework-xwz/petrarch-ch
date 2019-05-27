@@ -1,8 +1,8 @@
-INFO 2019-05-21 12:37:50,365: Running
-INFO 2019-05-21 12:37:50,365: Using default config file.
-INFO 2019-05-21 12:37:50,367: Reading MyVerbDic.txt
-INFO 2019-05-21 12:37:50,369: Reading Phoenix.agents.txt
+INFO 2019-05-27 20:24:34,177: Running
+INFO 2019-05-27 20:24:34,178: Using default config file.
+INFO 2019-05-27 20:24:34,194: Reading MyVerbDic.txt
+INFO 2019-05-27 20:24:34,200: Reading Phoenix.agents.txt
 
-WARNING 2019-05-21 12:37:50,391: Codes are required for agents in .agents file ; line skipped
-INFO 2019-05-21 12:37:50,395: Reading Phoenix.discards.txt
-INFO 2019-05-21 12:37:50,400: Reading Phoenix.IssueCoding.txt
+WARNING 2019-05-27 20:24:34,217: Codes are required for agents in .agents file ; line skipped
+INFO 2019-05-27 20:24:34,223: Reading Phoenix.discards.txt
+INFO 2019-05-27 20:24:34,226: Reading Phoenix.IssueCoding.txt

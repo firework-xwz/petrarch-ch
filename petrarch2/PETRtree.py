@@ -916,9 +916,15 @@ class VerbPhrase(Phrase):
         print('line 877: get_upper()', json.dumps(up, ensure_ascii=False, encoding='utf-8'))
         if self.check_passive() or (passive and not c):
             print("passive:",self.check_passive())
+            print("code",c)
             # Check for source in preps
             source_options = []
             target_options = up
+            # tem=self;
+            # while(tem.parent.label=="VP"):
+            #     tem=tem.parent
+            # print("接受者：",tem.get_upper())
+            # print("被的父节点",tem.parent.label)
             # print("target_options:",target_options)
             for child in self.children:
                 # print("aaa:",child.label)
@@ -927,6 +933,14 @@ class VerbPhrase(Phrase):
                         if(item.label=="NP"):
                             # print("bbb:",item.get_meaning())
                             source_options+=item.get_meaning()
+                elif(child.label=="NP"):
+                    source_options+=child.get_meaning()
+                elif(child.label=="PP"):
+                    for item in child.children:
+                        if(item.label=="NP"):
+                            # print("bbb:",item.get_meaning())
+                            source_options+=item.get_meaning()
+
 
                 # if isinstance(child, PrepPhrase):
                 #     if child.get_prep() in ["BY", "FROM", "IN"]:
@@ -958,7 +972,7 @@ class VerbPhrase(Phrase):
         if not low:
             low = ""
         if neg:
-            c = 0
+            c = c * (-1)
 
         if isinstance(low, list):
             for event in low:
@@ -1035,7 +1049,7 @@ class VerbPhrase(Phrase):
         """
 # --          print('cp-entry')
         print("self.children[0] in check_passive:",self.children[0].label)
-        if(self.children[0].label=="SB"or self.children[0].label=="LB"):
+        if(self.children[0].label=="SB"or self.children[0].label=="LB" or self.children[0].label=="PP"):
             return True
         else:
             return False
@@ -1160,8 +1174,13 @@ class VerbPhrase(Phrase):
 
         events = []
 
+        negated = False
         if len(self.children) > 1:
-            negated = (lower and self.children[1].text) == "NOT"
+            # negated = (lower and self.children[1].text) == "NOT"
+            for item in self.children:
+                if item.label == "ADVP":
+                    if "没有"or"不" in item.get_parse_string:
+                        negated = True
         else:
             negated = False
 
@@ -1255,7 +1274,18 @@ class VerbPhrase(Phrase):
         #     print("IP in VP",self.children[1].children[1].get_head()[0])
             # verb=self.children[1].children[1].get_head()[0]
         # verb = "TO" if self.children[0].label == "TO" else self.get_head()[0]
-        verb=self.children[1].children[1].get_head()[0] if self.children[0].label=="LB"else self.get_head()[0]
+
+
+        if(self.children[0].label=="LB"):
+            verb=self.children[1].children[1].get_head()[0]
+        elif(self.children[0].label=="SB"):
+            if(self.children[1].label=="IP"):
+                verb = self.children[1].children[1].get_head()[0]
+            else:
+                verb=self.get_head()[0]
+        else:
+            verb = self.get_head()[0]
+        # verb=self.children[1].children[1].get_head()[0] if self.children[0].label=="LB"else self.get_head()[0]
         meta.append(verb)
         meaning = ""
         path = dict

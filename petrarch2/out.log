@@ -1,0 +1,19 @@
+Namespace(command_name='batch', config=None, inputs='testnot.xml', nullactors=False, nullverbs=False, outputs='test.txt')
+
+ new_actor_length = 0
+stop_on_error = False
+write_actor_root = False
+write_actor_text = True
+write_event_text = True
+null_verbs = False
+null_actors = False
+require_dyad = True
+code-by-sentence True
+pause_by_sentence False
+pause_by_story False
+Comma-delimited clause elimination:
+Initial : deactivated
+Internal: min = 2    max = 8
+Terminal: min = 2    max = 8
+Verb dictionary: MyVerbDic.txt
+Undefined synset 
