@@ -124,3 +124,28 @@
 (IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 习近平  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
  科特迪瓦 最高 法院 决定 允许 习近平 参加 即将 到来 的 选举
 (IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 习近平  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
+ 科特迪瓦 最高 法院 决定 允许 习近平 参加 即将 到来 的 选举
+(IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 习近平  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
+ 俄 总统 普京 认为 美国 对 伊朗 的 施压 政策 不 会 取得 结果
+(IP (NP (NP (NP (NR 俄  )   )  (NP (NN 总统  )   )   )  (NP (NR 普京  )   )   )  (VP (VV 认为  )  (IP (NP (NP (NR 美国  )   )  (DNP (PP (P 对  )  (NP (NR 伊朗  )   )   )  (DEG 的  )   )  (NP (NN 施压  )  (NN 政策  )   )   )  (VP (ADVP (AD 不  )   )  (VP (VV 会  )  (VP (VV 取得  )  (NP (NN 结果  )   )   )   )   )   )   )   )  
+([u'RUSGOV'], ([u'USA'], u'', -61279), 0) 0
+ 中方 不 承认 菲 南海 仲裁案 裁决
+(IP (NP (NN 中方  )   )  (VP (ADVP (AD 不  )   )  (VP (VV 承认  )  (IP (NP (NP (NR 菲  )  (NR 南海  )   )  (NP (NN 仲裁案  )   )   )  (VP (VV 裁决  )   )   )   )   )   )  
+([u'CHN'], u'', -8240) 0
+ 中方 不 承认 菲 南海 仲裁案 裁决
+(IP (NP (NN 中方  )   )  (VP (ADVP (AD 不  )   )  (VP (VV 承认  )  (IP (NP (NP (NR 菲  )  (NR 南海  )   )  (NP (NN 仲裁案  )   )   )  (VP (VV 裁决  )   )   )   )   )   )  
+([u'CHN'], u'', -8240) 0
+ 德国 总理 默克尔 16日 说 ， 她 在 2021年 总理 任期 结束 后 不 会 在 欧盟 任职
+(IP (NP (NP (NP (NR 德国  )   )  (NP (NN 总理  )   )   )  (NP (NR 默克尔  )   )   )  (VP (NP (NT 16日  )   )  (VP (VV 说  )  (PU ，  )  (IP (NP (PN 她  )   )  (VP (PP (P 在  )  (LCP (IP (NP (NP (NP (NT 2021年  )   )  (NP (NN 总理  )   )   )  (NP (NN 任期  )   )   )  (VP (VV 结束  )   )   )  (LC 后  )   )   )  (ADVP (AD 不  )   )  (VP (VV 会  )  (VP (PP (P 在  )  (NP (NR 欧盟  )   )   )  (VP (VV 任职  )   )   )   )   )   )   )   )   )  
+ 俄 总统 普京 认为 美国 对 伊朗 的 施压 政策 不 会 取得 结果
+(IP (NP (NP (NP (NR 俄  )   )  (NP (NN 总统  )   )   )  (NP (NR 普京  )   )   )  (VP (VV 认为  )  (IP (NP (NP (NR 美国  )   )  (DNP (PP (P 对  )  (NP (NR 伊朗  )   )   )  (DEG 的  )   )  (NP (NN 施压  )  (NN 政策  )   )   )  (VP (ADVP (AD 不  )   )  (VP (VV 会  )  (VP (VV 取得  )  (NP (NN 结果  )   )   )   )   )   )   )   )  
+([u'RUSGOV'], ([u'USA'], u'', -61279), 0) 0
+ 中方 不 承认 菲 南海 仲裁案 裁决
+(IP (NP (NN 中方  )   )  (VP (ADVP (AD 不  )   )  (VP (VV 承认  )  (IP (NP (NP (NR 菲  )  (NR 南海  )   )  (NP (NN 仲裁案  )   )   )  (VP (VV 裁决  )   )   )   )   )   )  
+([u'CHN'], u'', -8240) 0
+ 德国 总理 默克尔 16日 说 ， 她 在 2021年 总理 任期 结束 后 不 会 在 欧盟 任职
+(IP (NP (NP (NP (NR 德国  )   )  (NP (NN 总理  )   )   )  (NP (NR 默克尔  )   )   )  (VP (NP (NT 16日  )   )  (VP (VV 说  )  (PU ，  )  (IP (NP (PN 她  )   )  (VP (PP (P 在  )  (LCP (IP (NP (NP (NP (NT 2021年  )   )  (NP (NN 总理  )   )   )  (NP (NN 任期  )   )   )  (VP (VV 结束  )   )   )  (LC 后  )   )   )  (ADVP (AD 不  )   )  (VP (VV 会  )  (VP (PP (P 在  )  (NP (NR 欧盟  )   )   )  (VP (VV 任职  )   )   )   )   )   )   )   )   )  
+([u'GER', u'GERGOV'], u'', -53247) 0
+ 俄 总统 普京 认为 美国 对 伊朗 的 施压 政策 不 会 取得 结果
+(IP (NP (NP (NP (NR 俄  )   )  (NP (NN 总统  )   )   )  (NP (NR 普京  )   )   )  (VP (VV 认为  )  (IP (NP (NP (NR 美国  )   )  (DNP (PP (P 对  )  (NP (NR 伊朗  )   )   )  (DEG 的  )   )  (NP (NN 施压  )  (NN 政策  )   )   )  (VP (ADVP (AD 不  )   )  (VP (VV 会  )  (VP (VV 取得  )  (NP (NN 结果  )   )   )   )   )   )   )   )  
+([u'RUSGOV'], ([u'USA'], u'', -61279), 0) 0

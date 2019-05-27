@@ -105,4 +105,83 @@
             (NP (NN 人道) (NN 主义) (NN 医疗) (NN 服务))))))))
 </Parse>
 </Sentence>
+<Sentence date="20180908" id="65570_1" sentence="True" source="NULL">
+<Text>
+新华社报道习近平与普京在符拉迪沃斯托克出席对话会
+</Text>
+<Parse>
+(ROOT
+  (IP
+    (NP (NR 新华社))
+    (VP (VV 报道)
+      (IP
+        (NP (NR 习近平)
+          (CC 与)
+          (NR 普京))
+        (VP
+          (PP (P 在)
+            (NP (NR 符拉迪沃斯托克)))
+          (VP (VV 出席)
+            (NP (NN 对话会))))))))
+</Parse>
+</Sentence>
+<Sentence date="20180908" id="65571_1" sentence="True" source="NULL">
+<Text>
+美国指责中国与南斯拉夫建立外交关系
+</Text>
+<Parse>
+(ROOT
+  (IP
+    (NP (NR 美国))
+    (VP (VV 指责)
+      (NP (NR 中国)
+        (CC 与)
+        (NR 南斯拉夫))
+      (IP
+        (VP (VV 建立)
+          (NP (NN 外交) (NN 关系)))))))
+</Parse>
+</Sentence>
+<Sentence date="20180908" id="65572_1" sentence="True" source="NULL">
+<Text>
+科特迪瓦最高法院决定允许习近平参加即将到来的选举
+</Text>
+<Parse>
+(ROOT
+  (IP
+    (NP
+      (NP (NR 科特迪瓦))
+      (ADJP (JJ 最高))
+      (NP (NN 法院)))
+    (VP (VV 决定)
+      (IP
+        (VP (VV 允许)
+          (NP (NR 习近平))
+          (IP
+            (VP (VV 参加)
+              (NP
+                (CP
+                  (IP
+                    (VP
+                      (ADVP (AD 即将))
+                      (VP (VV 到来))))
+                  (DEC 的))
+                (NP (NN 选举))))))))))
+</Parse>
+</Sentence>
+<Sentence date="20180908" id="65572_1" sentence="True" source="NULL">
+<Text>
+中国揭露美国袭击南斯拉夫
+</Text>
+<Parse>
+(ROOT
+  (IP
+    (NP (NR 中国))
+    (VP (VV 揭露)
+      (IP
+        (NP (NR 美国))
+        (VP (VV 袭击)
+          (NP (NR 南斯拉夫)))))))
+</Parse>
+</Sentence>
 </Sentences>
