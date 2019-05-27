@@ -14,8 +14,9 @@
 (IP (NP (NR 美国  )   )  (VP (VV 指责  )  (NP (NR 中国  )  (CC 与  )  (NR 南斯拉夫  )   )  (IP (VP (VV 建立  )  (NP (NN 外交  )  (NN 关系  )   )   )   )   )   )  
 ([u'USA'], u'CHN', 8256) 023
 ([u'USA'], u'YU', 8256) 023
- 科特迪瓦 最高 法院 决定 允许 习近平 参加 即将 到来 的 选举
-(IP (NP (NP (NR 科特迪瓦  )   )  (ADJP (JJ 最高  )   )  (NP (NN 法院  )   )   )  (VP (VV 决定  )  (IP (VP (VV 允许  )  (NP (NR 习近平  )   )  (IP (VP (VV 参加  )  (NP (CP (IP (VP (ADVP (AD 即将  )   )  (VP (VV 到来  )   )   )   )  (DEC 的  )   )  (NP (NN 选举  )   )   )   )   )   )   )   )   )  
+ 中国 揭露 美国 袭击 南斯拉夫
+(IP (NP (NR 中国  )   )  (VP (VV 揭露  )  (IP (NP (NR 美国  )   )  (VP (VV 袭击  )  (NP (NR 南斯拉夫  )   )   )   )   )   )  
+([u'CHN'], ([u'USA'], u'YU', 8704), 8256) 023
  中国 在 会谈 中 审视 了 《 板门店 宣言 》 履行 情况 ， 并 就 进一步 积极 落实 《 板门店 宣言 》 开展 了 真诚 协商
 (IP (NP (NR 中国  )   )  (VP (PP (P 在  )  (LCP (NP (NN 会谈  )   )  (LC 中  )   )   )  (VP (VV 审视  )  (AS 了  )  (IP (NP (PU 《  )  (NP (NR 板门店  )   )  (NP (NN 宣言  )   )  (PU 》  )   )  (VP (VP (VV 履行  )  (NP (NN 情况  )   )   )  (PU ，  )  (VP (ADVP (AD 并  )   )  (ADVP (AD 就  )   )  (ADVP (AD 进一步  )   )  (ADVP (AD 积极  )   )  (VP (VV 落实  )  (NP (PU 《  )  (NP (NR 板门店  )   )  (NP (NN 宣言  )   )  (PU 》  )   )   )   )  (VP (VV 开展  )  (AS 了  )  (NP (ADJP (JJ 真诚  )   )  (NP (NN 协商  )   )   )   )   )   )   )   )   )  
 ([u'CHN'], u'', 8288) 024
