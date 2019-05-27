@@ -916,9 +916,15 @@ class VerbPhrase(Phrase):
         print('line 877: get_upper()', json.dumps(up, ensure_ascii=False, encoding='utf-8'))
         if self.check_passive() or (passive and not c):
             print("passive:",self.check_passive())
+            print("code",c)
             # Check for source in preps
             source_options = []
             target_options = up
+            # tem=self;
+            # while(tem.parent.label=="VP"):
+            #     tem=tem.parent
+            # print("接受者：",tem.get_upper())
+            # print("被的父节点",tem.parent.label)
             # print("target_options:",target_options)
             for child in self.children:
                 # print("aaa:",child.label)
@@ -929,6 +935,11 @@ class VerbPhrase(Phrase):
                             source_options+=item.get_meaning()
                 elif(child.label=="NP"):
                     source_options+=child.get_meaning()
+                elif(child.label=="PP"):
+                    for item in child.children:
+                        if(item.label=="NP"):
+                            # print("bbb:",item.get_meaning())
+                            source_options+=item.get_meaning()
 
 
                 # if isinstance(child, PrepPhrase):
@@ -1038,7 +1049,7 @@ class VerbPhrase(Phrase):
         """
 # --          print('cp-entry')
         print("self.children[0] in check_passive:",self.children[0].label)
-        if(self.children[0].label=="SB"or self.children[0].label=="LB"):
+        if(self.children[0].label=="SB"or self.children[0].label=="LB" or self.children[0].label=="PP"):
             return True
         else:
             return False
