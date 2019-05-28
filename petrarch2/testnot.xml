@@ -588,7 +588,7 @@
             (NP
               (DNP
                 (PP (P 与)
-                  (NP (NR 委内瑞拉)))
+                  (NP (NR 哥伦比亚)))
                 (DEG 的))
               (NP (NN 边界)))))))))
 </Parse>

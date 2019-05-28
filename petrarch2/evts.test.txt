@@ -14,7 +14,7 @@
 ([u'MUS'], u'', -53135) 0
  白宫 于 周二 表示 ， 美国 总统 已 对 塔利班 宗教 派别 实施 制裁
 (IP (NP (NR 白宫  )   )  (VP (PP (P 于  )  (NP (NT 周二  )   )   )  (VP (VV 表示  )  (PU ，  )  (IP (NP (NP (NR 美国  )   )  (NP (NN 总统  )   )   )  (VP (ADVP (AD 已  )   )  (PP (P 对  )  (NP (NP (NR 塔利班  )   )  (NP (NN 宗教  )  (NN 派别  )   )   )   )  (VP (VV 实施  )  (NP (NN 制裁  )   )   )   )   )   )   )   )  
-([u'USAGOV'], ([u'USA'], u'', -53119), 0) 0
+([u'USAGOV'], ([u'USA'], u'', -53119), 8240) 028
  贝尔格莱德 电台 报道 ， 多达 100 名 阿尔巴尼亚 族人 在 科索沃 举行 示威
 (IP (NP (NP (NR 贝尔格莱德  )   )  (NP (NN 电台  )   )   )  (VP (VV 报道  )  (PU ，  )  (IP (NP (QP (ADVP (AD 多达  )   )  (QP (CD 100  )  (CLP (M 名  )   )   )   )  (NP (NR 阿尔巴尼亚  )   )  (NP (NN 族人  )   )   )  (VP (PP (P 在  )  (NP (NR 科索沃  )   )   )  (VP (VV 举行  )  (NP (NN 示威  )   )   )   )   )   )   )  
 ([u'ALB'], u'', 12352) 033
@@ -36,14 +36,15 @@
  侯赛因 · 萨拉米 反对 与 美国 展开 谈判
 (IP (NP (NR 侯赛因  )  (PU ·  )  (NR 萨拉米  )   )  (VP (VV 反对  )  (IP (VP (PP (P 与  )  (NP (NR 美国  )   )   )  (VP (VV 展开  )  (NP (NN 谈判  )   )   )   )   )   )   )  
 (u'', u'', 12336) 039
- 罗德里格斯 宣布 暂时 关闭 与 委内瑞拉 的 边界
-(IP (NP (NR 罗德里格斯  )   )  (VP (VV 宣布  )  (IP (VP (ADVP (AD 暂时  )   )  (VP (VV 关闭  )  (NP (DNP (PP (P 与  )  (NP (NR 委内瑞拉  )   )   )  (DEG 的  )   )  (NP (NN 边界  )   )   )   )   )   )   )   )  
+ 罗德里格斯 宣布 暂时 关闭 与 哥伦比亚 的 边界
+(IP (NP (NR 罗德里格斯  )   )  (VP (VV 宣布  )  (IP (VP (ADVP (AD 暂时  )   )  (VP (VV 关闭  )  (NP (DNP (PP (P 与  )  (NP (NR 哥伦比亚  )   )   )  (DEG 的  )   )  (NP (NN 边界  )   )   )   )   )   )   )   )  
+([u'VENGOV'], u'', -20463) 0
  美国 总统 一再 试图 挤压 美国 媒体 的 空间
 (IP (NP (NP (NR 美国  )   )  (NP (NN 总统  )   )   )  (VP (ADVP (AD 一再  )   )  (VP (VV 试图  )  (IP (VP (VV 挤压  )  (NP (DNP (NP (NP (NR 美国  )   )  (NP (NN 媒体  )   )   )  (DEG 的  )   )  (NP (NN 空间  )   )   )   )   )   )   )   )  
 ([u'USA'], u'', -20479) 0
  叙利亚 军方 表示 不 会 使用 化学 武器
 (IP (NP (NP (NR 叙利亚  )   )  (NP (NN 军方  )   )   )  (VP (VV 表示  )  (IP (VP (ADVP (AD 不  )   )  (VP (VV 会  )  (VP (VV 使用  )  (NP (NN 化学  )  (NN 武器  )   )   )   )   )   )   )   )  
-([u'SYR'], u'', -20476) 0
+([u'SYR'], u'', -12236) 0
  马其顿 军队 准备 继续 炮轰 阿尔巴尼亚 叛军 控制 的 领土
 (IP (NP (NP (NR 马其顿  )   )  (NP (NN 军队  )   )   )  (VP (VV 准备  )  (IP (VP (VV 继续  )  (VP (VV 炮轰  )  (NP (CP (IP (NP (NP (NR 阿尔巴尼亚  )   )  (NP (NN 叛军  )   )   )  (VP (VV 控制  )   )   )  (DEC 的  )   )  (NP (NN 领土  )   )   )   )   )   )   )   )  
-(u'', u'', 8704) 025
+([u'MKD'], u'', 8704) 025
