@@ -4,4 +4,6 @@
 .ropeproject
 petrarch_app.py
 mongo_sample.py
-.idea/
+.idea
+.idea/*
+PETRARCH.log

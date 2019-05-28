@@ -26,13 +26,6 @@ class FromCorenlpConverter(PetrXmlConverter):
             for line in source.readlines():
                 if not len(line) == 0:
                     properties = line.replace('\n', '').split('|')
-                    print json.dumps(properties, ensure_ascii=False, encoding='utf-8')
-                    print '-----------------------'
-                    print 'id(0)\t', properties[0]
-                    print 'date(4)\t', properties[4]
-                    print 'source(6)\t', properties[6]
-                    print 'content(8)\t', properties[8]
-                    print 'url(9)\t', properties[9]
                     event = {
                         Attr.id: properties[0],
                         Attr.date: properties[4].split(' ')[0].replace('-', ''),
