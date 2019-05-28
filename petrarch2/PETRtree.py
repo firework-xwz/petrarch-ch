@@ -1049,8 +1049,12 @@ class VerbPhrase(Phrase):
         """
 # --          print('cp-entry')
         print("self.children[0] in check_passive:",self.children[0].label)
-        if(self.children[0].label=="SB"or self.children[0].label=="LB" or self.children[0].label=="PP"):
+        if(self.children[0].label=="SB"or self.children[0].label=="LB"):
             return True
+        elif(self.children[0].label=="PP"):
+            for item in self.children[1].children:
+                if(item.label=="MSP"):
+                    return True
         else:
             return False
         # self.check_passive = self.return_passive
@@ -1316,7 +1320,9 @@ class VerbPhrase(Phrase):
                         meaning = path['#']['meaning']
                         self.verbclass = meaning if not meaning == "" else verb
                         if not code == '':
+                            # print("s:",code)
                             active, passive = utilities.convert_code(code)
+                            print(active)
                             self.code = active
                             print("line 1223: verb_code: ", utilities.convert_code(active, 0))
                     except:
