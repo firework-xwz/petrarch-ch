@@ -138,4 +138,23 @@
               (NP (NN 受害者)))))))))
 </Parse>
 </Sentence>
+<Sentence date="20180908" id="4_1" sentence="True" source="NULL">
+<Text>
+阿斯瓦德周日将被赞比亚引渡至英国
+</Text>
+<Parse>
+(ROOT
+  (IP
+    (NP (NR 阿斯瓦德))
+    (VP
+      (NP (NT 周日))
+      (ADVP (AD 将))
+      (VP (SB 被)
+        (IP
+          (NP (NR 赞比亚))
+          (VP
+            (VRD (VV 引渡) (VV 至))
+            (NP (NR 英国))))))))
+</Parse>
+</Sentence>
 </Sentences>

@@ -1,5 +1,7 @@
+# coding=utf-8
 import sys
 import os
+import re
 from argparse import Namespace
 
 from FromCorenlpConverter import FromCorenlpConverter
@@ -13,15 +15,16 @@ if __name__ == "__main__":
     input_path = 'input/'
     output_path = 'output/'
     corenlp_path = 'stanford-corenlp-full-2018-10-05'
-    port = 200
+    port = 530
 
     formatted_lines = []
     with open(input_path + 'raw' + '.txt', 'r') as fp:
         lines = fp.readlines()
 
         for index, line in enumerate(lines):
-            new_line = '{}|NULL|NULL|NULL|2018-09-08 00:00:00|NULL|NULL|NULL|{}|NULL\n'.format(index, line.replace('\n', ''))
-            formatted_lines.append(new_line)
+            if line[0] == '#':
+                new_line = '{}|NULL|NULL|NULL|2018-09-08 00:00:00|NULL|NULL|NULL|{}|NULL\n'.format(index, line.replace('\n', '').replace('#', ''))
+                formatted_lines.append(new_line)
     with open(input_path + file_name + '.txt', 'w') as fw:
         fw.writelines(formatted_lines)
 

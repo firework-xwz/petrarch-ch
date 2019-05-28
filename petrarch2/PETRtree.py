@@ -873,7 +873,7 @@ class VerbPhrase(Phrase):
             returns: [tuple]
                      list of resolved event tuples
             """
-            print('VP.resolve_event()')
+            print('VP.resolve_events()')
             print('event:', event)
             returns = []
             first, second, third = [up, "", ""]
@@ -1183,7 +1183,7 @@ class VerbPhrase(Phrase):
             # negated = (lower and self.children[1].text) == "NOT"
             for item in self.children:
                 if item.label == "ADVP":
-                    if "没有"or"不" in item.get_parse_string:
+                    if "没有" in item.get_parse_string() or "不" in item.get_parse_string():
                         negated = True
         else:
             negated = False
@@ -1195,7 +1195,8 @@ class VerbPhrase(Phrase):
                 for event in item:
                     if isinstance(event, tuple):
                         adjusted.append(
-                            (event[0], event[1], event[2] - 0xFFFF))
+                            #(event[0], event[1], event[2] - 0xFFFF))
+                            (event[0], event[1], event[2]))
                     else:
                         adjusted.append(event)
                 item = adjusted
@@ -1281,12 +1282,23 @@ class VerbPhrase(Phrase):
 
 
         if(self.children[0].label=="LB"):
-            verb=self.children[1].children[1].get_head()[0]
+            try:
+                verb = filter(lambda a: a.label == 'VV', self.children[1].children[1].children[0].children)[0].text
+            except:
+                verb = self.children[1].children[1].get_head()[0]
         elif(self.children[0].label=="SB"):
             if(self.children[1].label=="IP"):
-                verb = self.children[1].children[1].get_head()[0]
+                try:
+                    verb = filter(lambda a: a.label == 'VV', self.children[1].children[1].children[0].children)[0].text
+                except Exception as e:
+                    print('line 1293: exception:', e)
+                    verb = self.children[1].children[1].get_head()[0]
             else:
-                verb = self.get_head()[0]
+                try:
+                    # verb = self.get_head()[0]
+                    verb = filter(lambda a: a.label == 'VV', self.children)[0].text
+                except:
+                    verb = self.get_head()[0]
         else:
             # verb = self.get_head()[0]
             # verb1 = list(map(lambda b: b.text, filter(lambda a: a.label == 'VV', self.children)))

@@ -2,3 +2,4 @@
 1|NULL|NULL|NULL|2018-09-08 00:00:00|NULL|NULL|NULL|中国旨在为联合国主导的叙利亚和平进程寻求政治支持，并为缓解叙利亚人道主义灾难募集善款|NULL
 2|NULL|NULL|NULL|2018-09-08 00:00:00|NULL|NULL|NULL|中国抵达苏瓦港，对斐济进行为期8天的友好访问并提供人道主义医疗服务|NULL
 3|NULL|NULL|NULL|2018-09-08 00:00:00|NULL|NULL|NULL|过去一年来，美国政府不断放出各种受害者论调，将自己打造成一位冤屈满腹、怒气冲冲的受害者|NULL
+4|NULL|NULL|NULL|2018-09-08 00:00:00|NULL|NULL|NULL|阿斯瓦德周日将被赞比亚引渡至英国|NULL
