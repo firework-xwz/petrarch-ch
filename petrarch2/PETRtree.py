@@ -1282,9 +1282,15 @@ class VerbPhrase(Phrase):
             if(self.children[1].label=="IP"):
                 verb = self.children[1].children[1].get_head()[0]
             else:
-                verb=self.get_head()[0]
+                verb = self.get_head()[0]
         else:
-            verb = self.get_head()[0]
+            # verb = self.get_head()[0]
+            # verb1 = list(map(lambda b: b.text, filter(lambda a: a.label == 'VV', self.children)))
+            try:
+                # verb = self.get_head()[0]
+                verb = filter(lambda a: a.label == 'VV', self.children)[0].text
+            except:
+                verb = self.get_head()[0]
         # verb=self.children[1].children[1].get_head()[0] if self.children[0].label=="LB"else self.get_head()[0]
         meta.append(verb)
         meaning = ""
@@ -1292,15 +1298,14 @@ class VerbPhrase(Phrase):
         passive = False
         # if (self.children[0].label == "SB"):
         #     passive=True
-        print("verb:",json.dumps(verb, ensure_ascii=False, encoding='utf-8'))
         # print("passive:",passive)
-        print("line 1267: verb: ",json.dumps(verb, ensure_ascii=False, encoding='utf-8'))
+        print("line 1296: verb: ", json.dumps(verb, ensure_ascii=False, encoding='utf-8'))
 
         if verb in dict:
             code = 0
             # print("verb:", verb)
             path = dict[verb]
-            print("path:",json.dumps(path, ensure_ascii=False, encoding='utf-8'))
+            print("path:", json.dumps(path, ensure_ascii=False, encoding='utf-8'))
             print('line 1210: path:', json.dumps(path, ensure_ascii=False, encoding='utf-8'))
             if ['#'] == path.keys():
                 #print("123:",path.keys())
@@ -1709,8 +1714,8 @@ class Sentence:
                 lab = element[1:]
                 if lab == "NP":
                     new = NounPhrase(lab, self.date, self)
-                elif lab == "VP":
-                    new = VerbPhrase(lab, self.date, self)
+                elif lab in ["VP", 'VCD', 'VRD']:
+                    new = VerbPhrase("VP", self.date, self)
                     self.verbs.append(new)
                 elif lab == "PP":
                     new = PrepPhrase(lab, self.date, self)
