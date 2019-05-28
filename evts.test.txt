@@ -1,5 +1,9 @@
+ 中国 近年 来 颁布 实行 了 涉及 经济 、 贸易 、 建设 、 规划 、 科技 、 文教 等 领域 的 七十一 件 法规性 文件
+(IP (NP (NR 中国  )   )  (VP (LCP (NP (NT 近年  )   )  (LC 来  )   )  (VP (VCD (VV 颁布  )  (VV 实行  )   )  (AS 了  )  (NP (CP (IP (VP (VV 涉及  )  (NP (NP (NN 经济  )  (PU 、  )  (NN 贸易  )  (PU 、  )  (NN 建设  )  (PU 、  )  (NN 规划  )  (PU 、  )  (NN 科技  )  (PU 、  )  (NN 文教  )  (ETC 等  )   )  (NP (NN 领域  )   )   )   )   )  (DEG 的  )   )  (QP (CD 七十一  )  (CLP (M 件  )   )   )  (ADJP (JJ 法规性  )   )  (NP (NN 文件  )   )   )   )   )   )  
+([u'CHN'], u'', 12288) 030
  中国 旨在 为 联合国 主导 的 叙利亚 和平 进程 寻求 政治 支持 ， 并 为 缓解 叙利亚 人道 主义 灾难 募集 善款
 (IP (NP (NR 中国  )   )  (VP (VP (VV 旨在  )  (NP (CP (IP (VP (PP (P 为  )  (NP (NR 联合国  )   )   )  (VP (VV 主导  )   )   )   )  (DEC 的  )   )  (NP (NR 叙利亚  )   )  (NP (NN 和平  )  (NN 进程  )   )   )   )  (VP (VV 寻求  )  (NP (NN 政治  )  (NN 支持  )   )   )  (PU ，  )  (CC 并  )  (VP (PP (P 为  )  (IP (VP (VV 缓解  )  (NP (NP (NR 叙利亚  )   )  (NP (NN 人道  )  (NN 主义  )  (NN 灾难  )   )   )   )   )   )  (VP (VV 募集  )  (NP (NN 善款  )   )   )   )   )   )  
+([u'CHN'], u'SYR', 4100) 018
 ([u'CHN'], u'', 8208) 026
 ([u'CHN'], u'', 8704) 025
  中国 抵达 苏瓦港 ， 对 斐济 进行 为期 8 天 的 友好 访问 并 提供 人道 主义 医疗 服务
@@ -7,18 +11,10 @@
 ([u'CHN'], u'', 4108) 012
 ([u'CHN'], u'', 8304) 021
 ([u'CHN'], u'', 8320) 022
- 新华社 报道 习近平 与 普京 在 符拉迪沃斯托克 出席 对话会
-(IP (NP (NR 新华社  )   )  (VP (VV 报道  )  (IP (NP (NR 习近平  )  (CC 与  )  (NR 普京  )   )  (VP (PP (P 在  )  (NP (NR 符拉迪沃斯托克  )   )   )  (VP (VV 出席  )  (NP (NN 对话会  )   )   )   )   )   )   )  
-([u'CHNGOV', u'RUSGOV'], u'', 8192) 020
- 美国 指责 中国 与 南斯拉夫 建立 外交 关系
-(IP (NP (NR 美国  )   )  (VP (VV 指责  )  (NP (NR 中国  )  (CC 与  )  (NR 南斯拉夫  )   )  (IP (VP (VV 建立  )  (NP (NN 外交  )  (NN 关系  )   )   )   )   )   )  
-([u'USA'], u'CHN', 8256) 023
-([u'USA'], u'YU', 8256) 023
- 中国 揭露 美国 袭击 南斯拉夫
-(IP (NP (NR 中国  )   )  (VP (VV 揭露  )  (IP (NP (NR 美国  )   )  (VP (VV 袭击  )  (NP (NR 南斯拉夫  )   )   )   )   )   )  
-([u'CHN'], ([u'USA'], u'YU', 8704), 8256) 023
- 中国 在 会谈 中 审视 了 《 板门店 宣言 》 履行 情况 ， 并 就 进一步 积极 落实 《 板门店 宣言 》 开展 了 真诚 协商
-(IP (NP (NR 中国  )   )  (VP (PP (P 在  )  (LCP (NP (NN 会谈  )   )  (LC 中  )   )   )  (VP (VV 审视  )  (AS 了  )  (IP (NP (PU 《  )  (NP (NR 板门店  )   )  (NP (NN 宣言  )   )  (PU 》  )   )  (VP (VP (VV 履行  )  (NP (NN 情况  )   )   )  (PU ，  )  (VP (ADVP (AD 并  )   )  (ADVP (AD 就  )   )  (ADVP (AD 进一步  )   )  (ADVP (AD 积极  )   )  (VP (VV 落实  )  (NP (PU 《  )  (NP (NR 板门店  )   )  (NP (NN 宣言  )   )  (PU 》  )   )   )   )  (VP (VV 开展  )  (AS 了  )  (NP (ADJP (JJ 真诚  )   )  (NP (NN 协商  )   )   )   )   )   )   )   )   )  
-([u'CHN'], u'', 8288) 024
-([u'CHN'], u'', 8192) 020
-([u'CHN'], u'', 8256) 023
+ 过去 一 年 来 ， 美国 政府 不断 放出 各 种 受害者 论调 ， 将 自己 打造 成 一 位 冤屈 满腹 、 怒气冲冲 的 受害者
+(IP (LCP (QP (NP (NT 过去  )   )  (QP (CD 一  )  (CLP (M 年  )   )   )   )  (LC 来  )   )  (PU ，  )  (NP (NP (NR 美国  )   )  (NP (NN 政府  )   )   )  (VP (VP (ADVP (AD 不断  )   )  (VP (VV 放出  )  (NP (DP (DT 各  )  (CLP (M 种  )   )   )  (NP (NN 受害者  )  (NN 论调  )   )   )   )   )  (PU ，  )  (VP (BA 将  )  (IP (NP (PN 自己  )   )  (VP (VRD (VV 打造  )  (VV 成  )   )  (NP (QP (CD 一  )  (CLP (M 位  )   )   )  (NP (NN 冤屈  )   )  (ADJP (JJ 满腹  )   )  (PU 、  )  (DNP (ADJP (JJ 怒气冲冲  )   )  (DEG 的  )   )  (NP (NN 受害者  )   )   )   )   )   )   )   )  
+([u'USA'], u'', 12416) 032
+([u'USA'], ([u'USA'], u'', 12352), 0) 0
+ 阿斯瓦德 周日 将 被 赞比亚 引渡 至 英国
+(IP (NP (NR 阿斯瓦德  )   )  (VP (NP (NT 周日  )   )  (ADVP (AD 将  )   )  (VP (SB 被  )  (IP (NP (NR 赞比亚  )   )  (VP (VRD (VV 引渡  )  (VV 至  )   )  (NP (NR 英国  )   )   )   )   )   )   )  
+([u'ZMB'], u'ENGTER', 8240) 028
