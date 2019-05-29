@@ -135,3 +135,12 @@ UFFE_ELLEMANN_JENSEN_
 
 马其顿_
 [MKD]
+
+委内瑞拉_
+[VEN]
+
+罗德里格斯_
+[VENGOV]
+
+哥伦比亚_
+[COL]
