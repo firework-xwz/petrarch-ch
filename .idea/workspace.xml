@@ -30,15 +30,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petrarch2/data/dictionaries/MyVerbDic.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1890">
-              <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SECOND">
@@ -48,38 +39,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petrarch2/data/dictionaries/MyActorDic.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2016">
-              <caret line="112" column="3" selection-start-line="112" selection-start-column="3" selection-end-line="112" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/petrarch2/evts.test.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/petrarch2/PETRtree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="1170" column="57" selection-start-line="1170" selection-start-column="57" selection-end-line="1170" selection-end-column="57" />
+            <state relative-caret-position="816">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petrarch2/testnot.xml">
+        <entry file="file://$PROJECT_DIR$/input/raw.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10620">
-              <caret line="590" column="33" selection-start-line="590" selection-start-column="33" selection-end-line="590" selection-end-column="33" />
+            <state relative-caret-position="126">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/petrarch2/PETRtree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="824">
+              <caret line="1185" column="57" selection-start-line="1185" selection-start-column="57" selection-end-line="1185" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/petrarch2/data/config/PETR_config.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/petrarch2/data/dictionaries/MyAgentDic.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="589" column="14" lean-forward="true" selection-start-line="589" selection-start-column="14" selection-end-line="589" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -88,13 +88,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>code:</find>
-      <find>NP.get</find>
-      <find>match:</find>
-      <find>VP.MATCH</find>
-      <find>NR</find>
-      <find>'AND'</find>
-      <find>'%'</find>
       <find>c</find>
       <find>nulllist</find>
       <find>'nulls'</find>
@@ -114,6 +107,17 @@
       <find>取得</find>
       <find>委内瑞拉</find>
       <find>关闭</find>
+      <find>政府</find>
+      <find>总理</find>
+      <find>总统</find>
+      <find>电台</find>
+      <find>议会</find>
+      <find>军方</find>
+      <find>军队</find>
+      <find>军</find>
+      <find>公民</find>
+      <find>情报机构</find>
+      <find>大使馆</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,16 +147,17 @@
         <option value="$PROJECT_DIR$/petrarch2/data/dictionaries/MyVerbDic.txt" />
         <option value="$PROJECT_DIR$/petrarch2/testnot.xml" />
         <option value="$PROJECT_DIR$/petrarch2/data/dictionaries/MyActorDic.txt" />
-        <option value="$PROJECT_DIR$/petrarch2/evts.test.txt" />
         <option value="$PROJECT_DIR$/petrarch2/PETRtree.py" />
+        <option value="$PROJECT_DIR$/petrarch2/data/dictionaries/MyAgentDic.txt" />
+        <option value="$PROJECT_DIR$/petrarch2/data/config/PETR_config.ini" />
+        <option value="$PROJECT_DIR$/petrarch2/evts.test.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="558" />
-    <option name="y" value="90" />
-    <option name="width" value="1267" />
-    <option name="height" value="819" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1097" />
+    <option name="width" value="830" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -174,13 +179,12 @@
             <path>
               <item name="petrarch-ch" type="b2602c69:ProjectViewProjectNode" />
               <item name="petrarch-ch" type="462c0819:PsiDirectoryNode" />
-              <item name="petrarch2" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="petrarch-ch" type="b2602c69:ProjectViewProjectNode" />
               <item name="petrarch-ch" type="462c0819:PsiDirectoryNode" />
               <item name="petrarch2" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,6 +207,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\petrarch-ch\petrarch2\data\dictionaries" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\petrarch-ch\petrarch2" />
     </key>
@@ -329,7 +336,10 @@
       <workItem from="1558952969536" duration="7556000" />
       <workItem from="1558965374392" duration="29000" />
       <workItem from="1558967459958" duration="1112000" />
-      <workItem from="1559032011009" duration="679000" />
+      <workItem from="1559032011009" duration="1277000" />
+      <workItem from="1559529241729" duration="3333000" />
+      <workItem from="1559557700731" duration="256000" />
+      <workItem from="1559557993904" duration="3620000" />
     </task>
     <task id="LOCAL-00001" summary="改错NN.get_text()">
       <created>1554908881015</created>
@@ -398,7 +408,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62044000" />
+    <option name="totallyTimeSpent" value="69851000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -410,10 +420,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1097" y="0" width="830" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23134328" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.49124727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -433,7 +443,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Terminal" order="5" weight="0.3672708" />
+      <window_info anchor="right" id="Terminal" order="5" weight="0.36623377" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22441365" />
@@ -553,9 +563,6 @@
     </entry>
     <entry file="file://C:/Anaconda3/envs/Python 2.7/Lib/json/decoder.py" />
     <entry file="file://C:/Anaconda3/envs/Python 2.7/Lib/site-packages/stanfordcorenlp/corenlp.py" />
-    <entry file="file://$PROJECT_DIR$/petrarch2/data/config/PETR_config.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/FromCorenlpConverter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -723,20 +730,27 @@
     <entry file="file://$PROJECT_DIR$/petrarch2/test.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/petrarch2/testip.xml">
+    <entry file="file://$PROJECT_DIR$/petrarch2/data/dictionaries/MyVerbDic.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="2178">
+          <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petrarch2/test-ch2.xml">
+    <entry file="file://$PROJECT_DIR$/petrarch2/PETRglobals.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/petrarch2/data/dictionaries/MyVerbDic.txt">
+    <entry file="file://$PROJECT_DIR$/petrarch2/data/dictionaries/MyActorDic.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+        <state relative-caret-position="857">
+          <caret line="129" column="3" selection-start-line="129" selection-start-column="3" selection-end-line="129" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petrarch2/testnot.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10620">
+          <caret line="590" column="33" selection-start-line="590" selection-start-column="33" selection-end-line="590" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -748,31 +762,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petrarch2/data/dictionaries/MyActorDic.txt">
+    <entry file="file://$PROJECT_DIR$/petrarch2/tevent">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petrarch2/testip.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2016">
-          <caret line="112" column="3" selection-start-line="112" selection-start-column="3" selection-end-line="112" selection-end-column="3" />
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petrarch2/testnot.xml">
+    <entry file="file://$PROJECT_DIR$/petrarch2/test-ch2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10620">
-          <caret line="590" column="33" selection-start-line="590" selection-start-column="33" selection-end-line="590" selection-end-column="33" />
+        <state relative-caret-position="-432" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petrarch2/data/dictionaries/MyAgentDic.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="589" column="14" lean-forward="true" selection-start-line="589" selection-start-column="14" selection-end-line="589" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petrarch2/evts.test.txt">
+    <entry file="file://$PROJECT_DIR$/input/raw.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/petrarch2/PETRtree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="1170" column="57" selection-start-line="1170" selection-start-column="57" selection-end-line="1170" selection-end-column="57" />
+        <state relative-caret-position="824">
+          <caret line="1185" column="57" selection-start-line="1185" selection-start-column="57" selection-end-line="1185" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petrarch2/data/config/PETR_config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petrarch2/evts.test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
