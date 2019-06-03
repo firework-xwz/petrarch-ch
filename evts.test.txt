@@ -1,20 +1,27 @@
  中国 近年 来 颁布 实行 了 涉及 经济 、 贸易 、 建设 、 规划 、 科技 、 文教 等 领域 的 七十一 件 法规性 文件
 (IP (NP (NR 中国  )   )  (VP (LCP (NP (NT 近年  )   )  (LC 来  )   )  (VP (VCD (VV 颁布  )  (VV 实行  )   )  (AS 了  )  (NP (CP (IP (VP (VV 涉及  )  (NP (NP (NN 经济  )  (PU 、  )  (NN 贸易  )  (PU 、  )  (NN 建设  )  (PU 、  )  (NN 规划  )  (PU 、  )  (NN 科技  )  (PU 、  )  (NN 文教  )  (ETC 等  )   )  (NP (NN 领域  )   )   )   )   )  (DEG 的  )   )  (QP (CD 七十一  )  (CLP (M 件  )   )   )  (ADJP (JJ 法规性  )   )  (NP (NN 文件  )   )   )   )   )   )  
-([u'CHN'], u'', 12288) 030
+([u'CHN'], u'', u'172')
  中国 旨在 为 联合国 主导 的 叙利亚 和平 进程 寻求 政治 支持 ， 并 为 缓解 叙利亚 人道 主义 灾难 募集 善款
 (IP (NP (NR 中国  )   )  (VP (VP (VV 旨在  )  (NP (CP (IP (VP (PP (P 为  )  (NP (NR 联合国  )   )   )  (VP (VV 主导  )   )   )   )  (DEC 的  )   )  (NP (NR 叙利亚  )   )  (NP (NN 和平  )  (NN 进程  )   )   )   )  (VP (VV 寻求  )  (NP (NN 政治  )  (NN 支持  )   )   )  (PU ，  )  (CC 并  )  (VP (PP (P 为  )  (IP (VP (VV 缓解  )  (NP (NP (NR 叙利亚  )   )  (NP (NN 人道  )  (NN 主义  )  (NN 灾难  )   )   )   )   )   )  (VP (VV 募集  )  (NP (NN 善款  )   )   )   )   )   )  
-([u'CHN'], u'SYR', 4100) 018
-([u'CHN'], u'', 8208) 026
-([u'CHN'], u'', 8704) 025
+([u'SYR'], u'CHN', u'160')
+([u'CHN'], u'SYR', u'160')
+([u'CHN'], u'', u'162')
+([u'CHN'], u'', u'161')
  中国 抵达 苏瓦港 ， 对 斐济 进行 为期 8 天 的 友好 访问 并 提供 人道 主义 医疗 服务
 (IP (NP (NR 中国  )   )  (VP (VP (VV 抵达  )  (NP (NR 苏瓦港  )   )   )  (PU ，  )  (VP (PP (P 对  )  (NP (NR 斐济  )   )   )  (VP (VP (VV 进行  )  (NP (CP (IP (VP (VV 为期  )  (QP (CD 8  )  (CLP (M 天  )   )   )   )   )  (DEC 的  )   )  (ADJP (JJ 友好  )   )  (NP (NN 访问  )   )   )   )  (AD 并  )  (VP (VV 提供  )  (NP (NN 人道  )  (NN 主义  )  (NN 医疗  )  (NN 服务  )   )   )   )   )   )   )  
-([u'CHN'], u'', 4108) 012
-([u'CHN'], u'', 8304) 021
-([u'CHN'], u'', 8320) 022
+([u'CHN'], u'', u'180')
+([u'CHN'], u'', u'116')
+([u'CHN'], u'', u'151')
  过去 一 年 来 ， 美国 政府 不断 放出 各 种 受害者 论调 ， 将 自己 打造 成 一 位 冤屈 满腹 、 怒气冲冲 的 受害者
 (IP (LCP (QP (NP (NT 过去  )   )  (QP (CD 一  )  (CLP (M 年  )   )   )   )  (LC 来  )   )  (PU ，  )  (NP (NP (NR 美国  )   )  (NP (NN 政府  )   )   )  (VP (VP (ADVP (AD 不断  )   )  (VP (VV 放出  )  (NP (DP (DT 各  )  (CLP (M 种  )   )   )  (NP (NN 受害者  )  (NN 论调  )   )   )   )   )  (PU ，  )  (VP (BA 将  )  (IP (NP (PN 自己  )   )  (VP (VRD (VV 打造  )  (VV 成  )   )  (NP (QP (CD 一  )  (CLP (M 位  )   )   )  (NP (NN 冤屈  )   )  (ADJP (JJ 满腹  )   )  (PU 、  )  (DNP (ADJP (JJ 怒气冲冲  )   )  (DEG 的  )   )  (NP (NN 受害者  )   )   )   )   )   )   )   )  
-([u'USA'], u'', 12416) 032
-([u'USA'], ([u'USA'], u'', 12352), 0) 0
+([u'USA'], u'', u'044')
+([u'USA'], ([u'USA'], u'', u'171'), 0)
  阿斯瓦德 周日 将 被 赞比亚 引渡 至 英国
 (IP (NP (NR 阿斯瓦德  )   )  (VP (NP (NT 周日  )   )  (ADVP (AD 将  )   )  (VP (SB 被  )  (IP (NP (NR 赞比亚  )   )  (VP (VRD (VV 引渡  )  (VV 至  )   )  (NP (NR 英国  )   )   )   )   )   )   )  
-([u'ZMB'], u'ENGTER', 8240) 028
+([u'ZMB'], u'ENGTER', u'050')
+ 过去 一 年 里 ， 在 伊拉克 的 美国 驻军 增加 到 了 4万 人
+(IP (NP (LCP (QP (NP (NT 过去  )   )  (QP (CD 一  )  (CLP (M 年  )   )   )   )  (LC 里  )   )  (PU ，  )  (DNP (PP (P 在  )  (NP (NR 伊拉克  )   )   )  (DEG 的  )   )  (NP (NR 美国  )   )  (NP (NN 驻军  )   )   )  (VP (VRD (VV 增加  )  (VV 到  )   )  (AS 了  )  (NP (QP (CD 4万  )   )  (NP (NN 人  )   )   )   )   )  
+([u'USA'], u'', u'053')
+ 英国 坚信 自己 应该 留在 欧盟
+(IP (NP (NR 英国  )   )  (VP (VV 坚信  )  (IP (NP (PN 自己  )   )  (VP (VV 应该  )  (VP (VV 留在  )  (NP (NR 欧盟  )   )   )   )   )   )   )  
+([u'ENG'], ([u'ENG'], u'EU', u'181'), u'040')

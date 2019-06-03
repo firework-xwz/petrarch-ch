@@ -15,7 +15,7 @@ if __name__ == "__main__":
     input_path = 'input/'
     output_path = 'output/'
     corenlp_path = 'stanford-corenlp-full-2018-10-05'
-    port = 530
+    port = 330
 
     formatted_lines = []
     with open(input_path + 'raw' + '.txt', 'r') as fp:
@@ -29,13 +29,16 @@ if __name__ == "__main__":
         fw.writelines(formatted_lines)
 
     if os.path.exists('evts.test.txt'):
-        os.remove('evts.test.txt')
+        with open('evts.test.txt', 'w') as fw:
+            fw.write('')
 
-    converter = FromCorenlpConverter(input_path + file_name + '.txt', '', corenlp_path, port)
+    flag = False
+    if flag:
+        converter = FromCorenlpConverter(input_path + file_name + '.txt', '', corenlp_path, port)
 
-    converter.run()
+        converter.run()
 
-    converter.__del__()
+        converter.__del__()
 
     args = Namespace(command_name='batch', config=None, inputs=output_path + file_name + '.xml',
                      nullactors=False, nullverbs=False, outputs=output_path + file_name + '_result.txt')

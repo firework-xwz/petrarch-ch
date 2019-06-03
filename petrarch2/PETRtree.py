@@ -906,9 +906,7 @@ class VerbPhrase(Phrase):
                 third = utilities.combine_code(c, event[2])
             e = (first, second, third)
             self.sentence.metadata[id(e)] = [event, c, meta, 2]
-            print("resolve")
-            print((returns+[e]))
-            print('line 875: returns: ', returns)
+            print('line 875: returns: ', returns + [e])
             return returns + [e]
 
         events = []
@@ -1409,7 +1407,7 @@ class VerbPhrase(Phrase):
         t: list of tuples
            List of modified events, since multiple events can come from one single event
         """
-
+        print('line 1410: match_transform()')
         def recurse(pdict, event, a2v={}, v2a={}):
             path = pdict
             if isinstance(pdict, list):
@@ -1457,12 +1455,13 @@ class VerbPhrase(Phrase):
             t = recurse(PETRglobals.VerbDict['transformations'], e)
             if t:
                 return t
+            """
             else:
-
                 if e[0] and e[2] and isinstance(e[1], tuple) and e[1][
                         0] and not e[1][2] / (16 ** 3):
                     if isinstance(e[1][0], list):
                         results = []
+                        print('line 1446')
                         for item in e[1][0]:
                             event = (
                                 e[0], item, utilities.combine_code(
@@ -1473,7 +1472,7 @@ class VerbPhrase(Phrase):
                         e[0], e[1][0], utilities.combine_code(
                             e[2], e[1][2]))
                     return [event]
-
+            """
         except Exception as ex:
             pass  # print(ex)
         return [e]

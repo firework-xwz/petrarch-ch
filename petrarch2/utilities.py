@@ -410,7 +410,9 @@ def combine_code(selfcode, to_add):
     combined value
 
     """
-
+    print('line 413: combine_code()')
+    print(selfcode, to_add)
+    """
     if to_add < 0:
         return to_add + selfcode
     if selfcode >= 0x1000 and to_add >= 0x1000:
@@ -419,6 +421,8 @@ def combine_code(selfcode, to_add):
         return to_add
 
     return selfcode + to_add
+    """
+    return to_add
 
 
 def code_to_string(events):
@@ -791,7 +795,15 @@ def convert_code(code, forward=1):
 
            "200": 0x00B0,  # Use Unconventional Mass Violence
            "---": 0}
-
+    if forward:
+        passive = False
+        active = code.split(":")
+        passive = active[1] if len(active) > 1 else "---"
+        active = active[0] if active[0] else "---"
+        return active, passive
+    else:
+        return code
+    """
     if forward:
         passive = False
         active = code.split(":")
@@ -817,3 +829,4 @@ def convert_code(code, forward=1):
         if code and code in reverse:
             return reverse[code]
         return 0  # hex(code)
+    """

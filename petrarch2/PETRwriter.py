@@ -46,7 +46,7 @@ def write_events_demo(sent, events, meta, output_file):
         f.write(sent.treestr + '\n')
         print('events:', events)
         for index, event in enumerate(events[0]):
-            f.write(str(events[0][index]) + " " + str(utilities.convert_code(events[0][index][2], forward=0)) + '\n')
+            f.write(str(events[0][index]) + '\n')
        # f.write(str(meta) + '\n\n')
 
         f.close()
