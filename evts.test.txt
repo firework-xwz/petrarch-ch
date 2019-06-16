@@ -6,9 +6,11 @@
 ([u'LKA'], u'', u'1951')
  一 名 美国 公民 因 涉嫌 参与 上 月 在 热那亚 举行 的 八国 集团 峰会 期间 的 骚乱 ， 已 在 意大利 接受 调查
 (IP (NP (QP (CD 一  )  (CLP (M 名  )   )   )  (NP (NR 美国  )   )  (NP (NN 公民  )   )   )  (VP (PP (P 因  )  (IP (VP (VV 涉嫌  )  (NP (DNP (NP (CP (IP (VP (VV 参与  )  (NP (CP (IP (VP (NP (DP (DT 上  )   )  (NP (NN 月  )   )   )  (PP (P 在  )  (NP (NR 热那亚  )   )   )  (VP (VV 举行  )   )   )   )  (DEC 的  )   )  (NP (NR 八国  )  (NN 集团  )   )  (NP (NN 峰会  )   )   )   )   )   )  (NP (NN 期间  )   )   )  (DEG 的  )   )  (NP (NN 骚乱  )   )   )   )   )   )  (PU ，  )  (VP (ADVP (AD 已  )   )  (PP (P 在  )  (NP (NR 意大利  )   )   )  (VP (VV 接受  )  (NP (NN 调查  )   )   )   )   )   )  
+["热那亚", "意大利"]
 ([u'USACVL'], u'', u'1901')
  在 埃塞俄比亚 ， 政治犯 遭受 酷刑 折磨
 (IP (PP (P 在  )  (NP (NR 埃塞俄比亚  )   )   )  (PU ，  )  (NP (NN 政治犯  )   )  (VP (VV 遭受  )  (NP (NN 酷刑  )  (NN 折磨  )   )   )   )  
+["埃塞俄比亚"]
 ([u'STP'], u'', u'190')
  伊朗 情报 机构 遭 欧盟 制裁 ， 被 控 涉嫌 “ 政治 暗杀 ”
 (IP (NP (NP (NR 伊朗  )   )  (NP (NN 情报  )  (NN 机构  )   )   )  (VP (VP (VV 遭  )  (NP (NP (NR 欧盟  )   )  (NP (NN 制裁  )   )   )   )  (PU ，  )  (VP (SB 被  )  (VP (VV 控  )  (IP (VP (VV 涉嫌  )  (NP (PU “  )  (NP (NN 政治  )  (NN 暗杀  )   )  (PU ”  )   )   )   )   )   )   )   )  

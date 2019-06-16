@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 # SYSTEM REQUIREMENTS
 # This program has been successfully run under Mac OS 10.10; it is standard Python 2.7
 # so it should also run in Unix or Windows.
@@ -32,9 +33,47 @@ import codecs
 import json
 import PETRtree
 
+
 def get_actor_text(meta_strg):
     """ Extracts the source and target strings from the meta string. """
     pass
+
+
+def get_sub_str(original_str, tag, start_pos):
+    count = 0
+    beg = original_str.find(tag, start_pos) - 1
+    end = 0
+    for index, char in enumerate(original_str[beg:]):
+        if char == '(':
+            count += 1
+        elif char == ')':
+            count -= 1
+        if count == 0:
+            end = beg + index + 1
+            break
+    return beg, end, original_str[beg:end]
+
+
+def extract_location(tree_str):
+    flag1_beg = 0
+    flag1_end = 0
+    location_list = []
+    while flag1_end < len(tree_str):
+        flag1_beg, flag1_end, str1 = get_sub_str(tree_str, 'PP', flag1_beg)
+        if flag1_beg == -2:
+            break
+        flag2_end = 0
+        _, _, prep = get_sub_str(str1, 'P', 4)
+        prep = prep.split(' ')[1]
+        if prep in ['在', '于', '至', '到']:
+            while flag2_end < len(str1):
+                flag2_beg, flag2_end, str2 = get_sub_str(str1, 'NR', flag2_end)
+                if flag2_beg == -2:
+                    break
+                location_list.append(str2.split(' ')[1])
+
+        flag1_beg += 4
+    return location_list
 
 
 def write_events_demo(sent, events, meta, output_file):
@@ -44,10 +83,13 @@ def write_events_demo(sent, events, meta, output_file):
         # f.write('\n\n')
         f.write(sent.txt + '\n')
         f.write(sent.treestr + '\n')
+        locations = extract_location(sent.treestr)
+        if len(locations) > 0:
+            f.write(str(json.dumps(locations, ensure_ascii=False, encoding='utf-8')) + '\n')
         print('events:', events)
         for index, event in enumerate(events[0]):
             f.write(str(events[0][index]) + '\n')
-       # f.write(str(meta) + '\n\n')
+        # f.write(str(meta) + '\n\n')
 
         f.close()
 
