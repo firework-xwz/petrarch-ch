@@ -701,8 +701,11 @@ class PrepPhrase(Phrase):
         """
         self.prep = self.children[0].text
         if len(self.children) > 1 and not self.children[1].color:
-            self.meaning = self.children[1].get_meaning() if isinstance(
-                self.children[1], NounPhrase) else ""
+            for item in self.children:
+                if isinstance(item, NounPhrase):
+                    self.meaning = item.get_meaning()
+            # self.meaning = self.children[1].get_meaning() if isinstance(
+            #     self.children[1], NounPhrase) else ""
 # --            print('PPgm-2',self.meaning)  # --
             self.head = self.children[1].get_head()[0]
 
@@ -762,29 +765,30 @@ class VerbPhrase(Phrase):
         a NounPhrase object
 
         """
-        try:
-            if self.children[0].label == "VBN":
-                helping = ["HAVE", "HAD", "HAVING", "HAS"]
-                if ((not (self.parent.get_head()[0] in helping or self.parent.children[0].text in helping)) and
-                    len(filter(lambda a: isinstance(a, VerbPhrase), self.parent.children)) <= 1 and
-                        not self.check_passive()):
-
-                    self.valid = False
-
-                    np_replacement = NounPhrase("NP", self.date, self.sentence)
-                    np_replacement.children = self.children
-                    np_replacement.parent = self.parent
-                    np_replacement.index = self.index
-
-                    self.parent.children.remove(self)
-                    self.parent.children.insert(self.index, np_replacement)
-                    del(self)
-                    self = np_replacement
-                    return False
-            self.valid = True
-        except IndexError as e:
-            self.valid = True
+        # try:
+        #     if self.children[0].label == "VBN":
+        #         helping = ["HAVE", "HAD", "HAVING", "HAS"]
+        #         if ((not (self.parent.get_head()[0] in helping or self.parent.children[0].text in helping)) and
+        #             len(filter(lambda a: isinstance(a, VerbPhrase), self.parent.children)) <= 1 and
+        #                 not self.check_passive()):
+        #
+        #             self.valid = False
+        #
+        #             np_replacement = NounPhrase("NP", self.date, self.sentence)
+        #             np_replacement.children = self.children
+        #             np_replacement.parent = self.parent
+        #             np_replacement.index = self.index
+        #
+        #             self.parent.children.remove(self)
+        #             self.parent.children.insert(self.index, np_replacement)
+        #             del(self)
+        #             self = np_replacement
+        #             return False
+        #     self.valid = True
+        # except IndexError as e:
+        #     self.valid = True
         return True
+
 
     def get_theme(self):
         """
@@ -848,6 +852,8 @@ class VerbPhrase(Phrase):
 
         print('line 816: call VP.get_code()')
         c, passive, meta = self.get_code()
+        print("34444444444444444444444444")
+        print(c)
         # print('VP-gm-0:',self.get_text())
         # print('VP-gm-1:',c, meta)
         if c:
@@ -856,6 +862,20 @@ class VerbPhrase(Phrase):
             curparse = self.get_parse_string()
 
         s_options = filter(lambda a: a.label in "IP", self.children)
+
+        def neg_events(event):
+            returns = []
+            first, second, third = ["", "", ""]
+            print("line 866 neg_events")
+            print(event)
+            if isinstance(event, tuple):
+                first = event[0]
+                second = event[1]
+                third = "-" + event[2]
+                e2 = (first, second, third)
+                print("line 874 neg_events")
+                print(e2)
+                return e2
 
         def resolve_events(event):
             """
@@ -915,6 +935,7 @@ class VerbPhrase(Phrase):
         if self.check_passive() or (passive and not c):
             print("passive:",self.check_passive())
             print("code",c)
+            print("45555555555555555555555555")
             # Check for source in preps
             source_options = []
             target_options = up
@@ -971,10 +992,18 @@ class VerbPhrase(Phrase):
             low = ""
         if neg:
             c = c * (-1)
+            print("2333333333333333333333333333333")
+            print(c)
+            print(low)
 
         if isinstance(low, list):
             for event in low:
+                print(event)
+                if(neg):
+                    event = neg_events(event)
                 events += resolve_events(event)
+                print("line 984 events")
+                print(events)
         elif not s_options:
             if up or c:
                 e = (up, low, c)
@@ -1172,8 +1201,24 @@ class VerbPhrase(Phrase):
                 # isinstance(a, VerbPhrase) and False)
                 , self.children)
 
-        lower = map(lambda a: a.get_meaning(), v_options)
+        # v_options = filter(
+        #     lambda a: (
+        #         isinstance(a, VerbPhrase) or isinstance(a, PrepPhrase))
+        #         # isinstance(a, VerbPhrase) and False)
+        #         , self.children)
 
+        lower = map(lambda a: a.get_meaning(), v_options)
+        # print("line 1202")
+        # for item in self.children:
+        #     print(item.label)
+        #     if item.label == "PP":
+        #         print("PP.get_meaning")
+        #         print(item.get_text())
+        #         print(item.get_meaning())
+        # lower = map(lambda a: a.get_meaning(), self.children)
+        # print("line 1203")
+        # for item in lower:
+        #     print(item)
         events = []
 
         negated = False

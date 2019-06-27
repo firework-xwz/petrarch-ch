@@ -1,51 +1,10 @@
- 尼日利亚 教师 工会 周四 宣布 ， 在 与 尼日利亚 政府 商议 后 ， 已 取消 为期 四 天 的 罢工
-(IP (NP (NP (NR 尼日利亚  )   )  (NP (NN 教师  )  (NN 工会  )   )   )  (VP (NP (NT 周四  )   )  (VP (VV 宣布  )  (PU ，  )  (IP (VP (PP (P 在  )  (LCP (IP (VP (PP (P 与  )  (NP (NP (NR 尼日利亚  )   )  (NP (NN 政府  )   )   )   )  (VP (VV 商议  )   )   )   )  (LC 后  )   )   )  (PU ，  )  (ADVP (AD 已  )   )  (VP (VV 取消  )  (NP (CP (IP (VP (VV 为期  )  (QP (CD 四  )  (CLP (M 天  )   )   )   )   )  (DEG 的  )   )  (NP (NN 罢工  )   )   )   )   )   )   )   )   )  
-([u'~EDULAB'], u'', 0) 0
- 中方 不 承认 菲 南海 仲裁案 裁决
-(IP (NP (NN 中方  )   )  (VP (ADVP (AD 不  )   )  (VP (VV 承认  )  (IP (NP (NP (NR 菲  )  (NR 南海  )   )  (NP (NN 仲裁案  )   )   )  (VP (VV 裁决  )   )   )   )   )   )  
-([u'CHN'], u'', -8240) 0
- 德国 总理 默克尔 16日 说 ， 她 在 2021年 总理 任期 结束 后 不 会 在 欧盟 任职
-(IP (NP (NP (NP (NR 德国  )   )  (NP (NN 总理  )   )   )  (NP (NR 默克尔  )   )   )  (VP (NP (NT 16日  )   )  (VP (VV 说  )  (PU ，  )  (IP (NP (PN 她  )   )  (VP (PP (P 在  )  (LCP (IP (NP (NP (NP (NT 2021年  )   )  (NP (NN 总理  )   )   )  (NP (NN 任期  )   )   )  (VP (VV 结束  )   )   )  (LC 后  )   )   )  (ADVP (AD 不  )   )  (VP (VV 会  )  (VP (PP (P 在  )  (NP (NR 欧盟  )   )   )  (VP (VV 任职  )   )   )   )   )   )   )   )   )  
-([u'DEUGOV', u'DEUGOV'], u'', 12288) 030
- 俄 总统 普京 认为 美国 对 伊朗 的 施压 政策 不 会 取得 结果
-(IP (NP (NP (NP (NR 俄  )   )  (NP (NN 总统  )   )   )  (NP (NR 普京  )   )   )  (VP (VV 认为  )  (IP (NP (NP (NR 美国  )   )  (DNP (PP (P 对  )  (NP (NR 伊朗  )   )   )  (DEG 的  )   )  (NP (NN 施压  )  (NN 政策  )   )   )  (VP (ADVP (AD 不  )   )  (VP (VV 会  )  (VP (VV 取得  )  (NP (NN 结果  )   )   )   )   )   )   )   )  
-([u'RUSGOV'], ([u'USA'], u'', 4256), 0) 0
- 穆斯林 正 遭 政府 加强 镇压
-(IP (NP (NR 穆斯林  )   )  (VP (ADVP (AD 正  )   )  (VP (VV 遭  )  (IP (NP (NN 政府  )   )  (VP (VV 加强  )  (NP (NN 镇压  )   )   )   )   )   )   )  
-([u'MUS'], ([u'~GOV'], u'', 12400), 12352) 033
- 白宫 于 周二 表示 ， 美国 总统 已 对 塔利班 宗教 派别 实施 制裁
-(IP (NP (NR 白宫  )   )  (VP (PP (P 于  )  (NP (NT 周二  )   )   )  (VP (VV 表示  )  (PU ，  )  (IP (NP (NP (NR 美国  )   )  (NP (NN 总统  )   )   )  (VP (ADVP (AD 已  )   )  (PP (P 对  )  (NP (NP (NR 塔利班  )   )  (NP (NN 宗教  )  (NN 派别  )   )   )   )  (VP (VV 实施  )  (NP (NN 制裁  )   )   )   )   )   )   )   )  
-([u'USAGOV'], ([u'USAGOV'], u'', 12416), 8240) 028
- 贝尔格莱德 电台 报道 ， 多达 100 名 阿尔巴尼亚 族人 在 科索沃 举行 示威
-(IP (NP (NP (NR 贝尔格莱德  )   )  (NP (NN 电台  )   )   )  (VP (VV 报道  )  (PU ，  )  (IP (NP (QP (ADVP (AD 多达  )   )  (QP (CD 100  )  (CLP (M 名  )   )   )   )  (NP (NR 阿尔巴尼亚  )   )  (NP (NN 族人  )   )   )  (VP (PP (P 在  )  (NP (NR 科索沃  )   )   )  (VP (VV 举行  )  (NP (NN 示威  )   )   )   )   )   )   )  
-([u'ALB'], u'', 12352) 033
- 中国 警告 美国 必须 深刻 思考 对 华 加征 关税 的 后果
-(IP (NP (NR 中国  )   )  (VP (VV 警告  )  (NP (NR 美国  )   )  (IP (VP (VV 必须  )  (VP (ADVP (AD 深刻  )   )  (VP (VV 思考  )  (NP (CP (IP (VP (PP (P 对  )  (NP (NR 华  )   )   )  (VP (VV 加征  )  (NP (NN 关税  )   )   )   )   )  (DEC 的  )   )  (NP (NN 后果  )   )   )   )   )   )   )   )   )  
-([u'CHN'], u'USA', 8256) 023
- 布什 政府 要求 中国 取消 对 美国 出口 的 壁垒
-(IP (NP (NP (NR 布什  )   )  (NP (NN 政府  )   )   )  (VP (VV 要求  )  (NP (NR 中国  )   )  (IP (VP (VV 取消  )  (NP (DNP (NP (PP (P 对  )  (NP (NR 美国  )   )   )  (NP (NN 出口  )   )   )  (DEG 的  )   )  (NP (NN 壁垒  )   )   )   )   )   )   )  
-([u'USAGOV'], u'CHN', 12384) 034
- 津巴布韦 总理 穆加贝 指责 美国 敲诈勒索
-(IP (NP (NP (NP (NR 津巴布韦  )   )  (NP (NN 总理  )   )   )  (NP (NR 穆加贝  )   )   )  (VP (VV 指责  )  (NP (NR 美国  )   )  (IP (VP (VV 敲诈勒索  )   )   )   )   )  
-([u'ZWEGOV'], u'USA', 8256) 023
- 波兰 议会 要求 莫斯科 承认 苏联 在 二战 期间 杀害 了 1.5万 多 名 波兰 军官
-(IP (NP (NP (NR 波兰  )   )  (NP (NN 议会  )   )   )  (VP (VV 要求  )  (NP (NR 莫斯科  )   )  (IP (VP (VV 承认  )  (IP (NP (NR 苏联  )   )  (VP (PP (P 在  )  (NP (NP (NR 二战  )   )  (NP (NN 期间  )   )   )   )  (VP (VV 杀害  )  (AS 了  )  (NP (CD 1.5万  )  (QP (CD 多  )  (CLP (M 名  )   )   )  (NP (NR 波兰  )   )  (NP (NN 军官  )   )   )   )   )   )   )   )   )   )  
-([u'POMLEG'], u'RUSGOV', 12384) 034
- 中方 表示 ， 欢迎 卢森堡 加入 亚洲 基础 设施 投资 银行
-(IP (NP (NN 中方  )   )  (VP (VV 表示  )  (PU ，  )  (IP (VP (VV 欢迎  )  (NP (NR 卢森堡  )   )  (IP (VP (VV 加入  )  (NP (NP (NR 亚洲  )   )  (NP (NN 基础  )  (NN 设施  )  (NN 投资  )  (NN 银行  )   )   )   )   )   )   )   )   )  
-([u'CHN'], u'LUX', 12304) 036
- 侯赛因 · 萨拉米 反对 与 美国 展开 谈判
-(IP (NP (NR 侯赛因  )  (PU ·  )  (NR 萨拉米  )   )  (VP (VV 反对  )  (IP (VP (PP (P 与  )  (NP (NR 美国  )   )   )  (VP (VV 展开  )  (NP (NN 谈判  )   )   )   )   )   )   )  
-(u'', u'', 12336) 039
- 罗德里格斯 宣布 暂时 关闭 与 哥伦比亚 的 边界
-(IP (NP (NR 罗德里格斯  )   )  (VP (VV 宣布  )  (IP (VP (ADVP (AD 暂时  )   )  (VP (VV 关闭  )  (NP (DNP (PP (P 与  )  (NP (NR 哥伦比亚  )   )   )  (DEG 的  )   )  (NP (NN 边界  )   )   )   )   )   )   )   )  
-([u'VENGOV'], u'', 45072) 044
- 美国 总统 一再 试图 挤压 美国 媒体 的 空间
-(IP (NP (NP (NR 美国  )   )  (NP (NN 总统  )   )   )  (VP (ADVP (AD 一再  )   )  (VP (VV 试图  )  (IP (VP (VV 挤压  )  (NP (DNP (NP (NP (NR 美国  )   )  (NP (NN 媒体  )   )   )  (DEG 的  )   )  (NP (NN 空间  )   )   )   )   )   )   )   )  
-([u'USAGOV'], u'', 45056) 040
- 叙利亚 军方 表示 不 会 使用 化学 武器
-(IP (NP (NP (NR 叙利亚  )   )  (NP (NN 军方  )   )   )  (VP (VV 表示  )  (IP (VP (ADVP (AD 不  )   )  (VP (VV 会  )  (VP (VV 使用  )  (NP (NN 化学  )  (NN 武器  )   )   )   )   )   )   )   )  
-([u'SYRMIL'], u'', 45059) 043
- 马其顿 军队 准备 继续 炮轰 阿尔巴尼亚 叛军 控制 的 领土
-(IP (NP (NP (NR 马其顿  )   )  (NP (NN 军队  )   )   )  (VP (VV 准备  )  (IP (VP (VV 继续  )  (VP (VV 炮轰  )  (NP (CP (IP (NP (NP (NR 阿尔巴尼亚  )   )  (NP (NN 叛军  )   )   )  (VP (VV 控制  )   )   )  (DEC 的  )   )  (NP (NN 领土  )   )   )   )   )   )   )   )  
-([u'MKDMIL'], u'', 8704) 025
+ 国家 主席 习近平 11日 在 共同 符拉迪沃斯托克 和 俄罗斯 总统 普京 出席 中 俄 地方 领导人 对话会
+(IP (NP (NP (NN 国家  )  (NN 主席  )   )  (NP (NR 习近平  )   )   )  (VP (NP (NT 11日  )   )  (PP (P 在  )  (ADVP (AD 共同  )   )  (NP (NP (NP (NR 符拉迪沃斯托克  )  (CC 和  )  (NR 俄罗斯  )   )  (NP (NN 总统  )   )   )  (NP (NR 普京  )   )   )   )  (VP (VV 出席  )  (NP (NP (NR 中  )  (NR 俄  )   )  (NP (NN 地方  )  (NN 领导人  )  (NN 对话会  )   )   )   )   )   )  
+([u'RUSGOV'], u'CHNGOV', u'---')
+([u'CHNGOV'], u'RUSGOV', u'010')
+([u'RUSGOV'], u'CHNGOV', u'---')
+([u'CHNGOV'], u'RUSGOV', u'010')
+([u'CHNGOV'], u'', u'0231')
+ 国家 主席 习近平 11日 在 共同 符拉迪沃斯托克 和 俄罗斯 总统 普京 出席 中 俄 地方 领导人 对话会
+(IP (NP (NP (NN 国家  )  (NN 主席  )   )  (NP (NR 习近平  )   )   )  (VP (NP (NT 11日  )   )  (PP (P 在  )  (ADVP (AD 共同  )   )  (NP (NP (NP (NR 符拉迪沃斯托克  )  (CC 和  )  (NR 俄罗斯  )   )  (NP (NN 总统  )   )   )  (NP (NR 普京  )   )   )   )  (VP (VV 出席  )  (NP (NP (NR 中  )  (NR 俄  )   )  (NP (NN 地方  )  (NN 领导人  )  (NN 对话会  )   )   )   )   )   )  
+([u'CHNGOV'], u'', u'0231')

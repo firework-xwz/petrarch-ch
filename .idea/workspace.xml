@@ -24,7 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/petrarch_ch$temp.coverage" NAME="temp Coverage Results" MODIFIED="1558458026522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/petrarch_ch$temp.coverage" NAME="temp Coverage Results" MODIFIED="1560190170462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrarch2" />
     <SUITE FILE_PATH="coverage/petrarch_ch$main.coverage" NAME="main Coverage Results" MODIFIED="1558412898757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrarch2" />
   </component>
   <component name="FileEditorManager">
@@ -39,20 +39,41 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/petrarch2/news888.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/petrarch2/evts.test.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="126">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input/raw.txt">
+        <entry file="file://$PROJECT_DIR$/petrarch2/petrarch2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="503">
+              <caret line="150" column="37" selection-start-line="150" selection-start-column="37" selection-end-line="150" selection-end-column="37" />
+              <folding>
+                <element signature="e#25#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/petrarch2/data/dictionaries/MyVerbDic.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="115" column="20" lean-forward="true" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -60,26 +81,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/petrarch2/PETRtree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="824">
-              <caret line="1185" column="57" selection-start-line="1185" selection-start-column="57" selection-end-line="1185" selection-end-column="57" />
+            <state relative-caret-position="225">
+              <caret line="1201" column="32" lean-forward="true" selection-start-line="1201" selection-start-column="32" selection-end-line="1201" selection-end-column="32" />
+              <folding>
+                <element signature="e#10721#13382#1" />
+                <element signature="e#25195#25886#1" />
+                <element signature="e#26445#26789#1" />
+                <element signature="e#41619#42282#1" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petrarch2/data/config/PETR_config.ini">
+        <entry file="file://$PROJECT_DIR$/petrarch2/utilities.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petrarch2/data/dictionaries/MyAgentDic.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="589" column="14" lean-forward="true" selection-start-line="589" selection-start-column="14" selection-end-line="589" selection-end-column="14" />
+            <state relative-caret-position="172">
+              <caret line="373" lean-forward="true" selection-start-line="373" selection-end-line="373" />
             </state>
           </provider>
         </entry>
@@ -88,17 +106,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>c</find>
-      <find>nulllist</find>
-      <find>'nulls'</find>
-      <find>demo</find>
-      <find>do_coding</find>
-      <find>多米尼加</find>
-      <find>not</find>
-      <find>no</find>
-      <find>NO</find>
-      <find>get_lower</find>
-      <find>convert</find>
       <find>get_low</find>
       <find>袭击</find>
       <find>展开</find>
@@ -118,16 +125,27 @@
       <find>公民</find>
       <find>情报机构</find>
       <find>大使馆</find>
+      <find>不</find>
+      <find>习近平</find>
+      <find>convert_co</find>
+      <find>普京</find>
+      <find>231</find>
+      <find>not</find>
+      <find>combine_code</find>
+      <find>承认</find>
+      <find>resolve_events</find>
+      <find>is_valid</find>
+      <find>get_lower</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/petrarch2/PETRreader.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/petrarch2/PETRtree.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/petrarch2/utilities.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/petrarch2/data/dictionaries/CAMEO.2.0.txt" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/petrarch2/PETRtree.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/petrarch2/PETRreader.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/petrarch2/petrarch2.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
@@ -145,18 +163,21 @@
         <option value="$PROJECT_DIR$/input/testnot.xml" />
         <option value="$PROJECT_DIR$/petrarch2/petrarch2.py" />
         <option value="$PROJECT_DIR$/petrarch2/data/dictionaries/MyVerbDic.txt" />
-        <option value="$PROJECT_DIR$/petrarch2/testnot.xml" />
         <option value="$PROJECT_DIR$/petrarch2/data/dictionaries/MyActorDic.txt" />
-        <option value="$PROJECT_DIR$/petrarch2/PETRtree.py" />
         <option value="$PROJECT_DIR$/petrarch2/data/dictionaries/MyAgentDic.txt" />
         <option value="$PROJECT_DIR$/petrarch2/data/config/PETR_config.ini" />
+        <option value="$PROJECT_DIR$/evts.test.txt" />
+        <option value="$PROJECT_DIR$/petrarch2/utilities.py" />
+        <option value="$PROJECT_DIR$/petrarch2/news888.xml" />
+        <option value="$PROJECT_DIR$/petrarch2/testnot.xml" />
         <option value="$PROJECT_DIR$/petrarch2/evts.test.txt" />
+        <option value="$PROJECT_DIR$/petrarch2/PETRtree.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1097" />
-    <option name="width" value="830" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -179,12 +200,33 @@
             <path>
               <item name="petrarch-ch" type="b2602c69:ProjectViewProjectNode" />
               <item name="petrarch-ch" type="462c0819:PsiDirectoryNode" />
-              <item name="input" type="462c0819:PsiDirectoryNode" />
+              <item name="petrarch2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="petrarch-ch" type="b2602c69:ProjectViewProjectNode" />
               <item name="petrarch-ch" type="462c0819:PsiDirectoryNode" />
               <item name="petrarch2" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="petrarch-ch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="petrarch-ch" type="462c0819:PsiDirectoryNode" />
+              <item name="petrarch2" type="462c0819:PsiDirectoryNode" />
+              <item name="PETRtree.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="petrarch-ch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="petrarch-ch" type="462c0819:PsiDirectoryNode" />
+              <item name="petrarch2" type="462c0819:PsiDirectoryNode" />
+              <item name="PETRtree.py" type="8704e2dd:PyFileNode" />
+              <item name="PrepPhrase" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="petrarch-ch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="petrarch-ch" type="462c0819:PsiDirectoryNode" />
+              <item name="petrarch2" type="462c0819:PsiDirectoryNode" />
+              <item name="PETRtree.py" type="8704e2dd:PyFileNode" />
+              <item name="VerbPhrase" type="dd8bbb05:PyElementNode" />
             </path>
           </expand>
           <select />
@@ -278,14 +320,14 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop" />
+      <option name="SDK_HOME" value="C:\Users\37178\AppData\Local\conda\conda\envs\python2\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/petrarch2" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/temp.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/petrarch2/petrarch2.py" />
+      <option name="PARAMETERS" value="batch -i testnot.xml" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -340,6 +382,13 @@
       <workItem from="1559529241729" duration="3333000" />
       <workItem from="1559557700731" duration="256000" />
       <workItem from="1559557993904" duration="3620000" />
+      <workItem from="1559650894144" duration="63000" />
+      <workItem from="1560186028362" duration="8030000" />
+      <workItem from="1560229508828" duration="1342000" />
+      <workItem from="1560578761532" duration="26000" />
+      <workItem from="1561620467170" duration="6397000" />
+      <workItem from="1561627693547" duration="122000" />
+      <workItem from="1561634444484" duration="4027000" />
     </task>
     <task id="LOCAL-00001" summary="改错NN.get_text()">
       <created>1554908881015</created>
@@ -408,7 +457,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69851000" />
+    <option name="totallyTimeSpent" value="89858000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -420,10 +469,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1097" y="0" width="830" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.49124727" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19722815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -437,13 +486,13 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50037795" side_tool="true" weight="0.32827586" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3286334" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.32965517" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.42299348" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.4295011" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Terminal" order="5" weight="0.36623377" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22441365" />
@@ -520,39 +569,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="first_milestone_version" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/petrarch2/PETRtree.py</url>
-          <line>1216</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/petrarch2/PETRtree.py</url>
-          <line>1228</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/petrarch2/PETRtree.py</url>
-          <line>1229</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/petrarch2/PETRtree.py</url>
-          <line>112</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression=" e" language="Python" />
+        <watch expression="self.head_phrase" />
+        <watch expression="__py_debug_temp_var_1151081243" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/petrarch_ch$petrarch2.coverage" NAME="petrarch2 Coverage Results" MODIFIED="1555227392120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrarch2" />
     <SUITE FILE_PATH="coverage/petrarch_ch$main.coverage" NAME="main Coverage Results" MODIFIED="1555236730636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>__py_debug_temp_var_1151081243</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/Anaconda3/envs/Python 2.7/Lib/json/encoder.py" />
@@ -680,27 +716,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petrarch2/utilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="507" column="14" selection-start-line="507" selection-start-column="14" selection-end-line="507" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/petrarch2/PETRARCH.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petrarch2/tevent.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evts.test.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/output/test.xml">
@@ -717,26 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petrarch2/petrarch2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="199" column="13" lean-forward="true" selection-start-line="199" selection-start-column="13" selection-end-line="199" selection-end-column="13" />
-          <folding>
-            <element signature="e#25#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petrarch2/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petrarch2/data/dictionaries/MyVerbDic.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2178">
-          <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/petrarch2/PETRglobals.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -747,10 +743,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petrarch2/testnot.xml">
+    <entry file="file://$PROJECT_DIR$/petrarch2/testip.xml" />
+    <entry file="file://$PROJECT_DIR$/petrarch2/data/dictionaries/MyAgentDic.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10620">
-          <caret line="590" column="33" selection-start-line="590" selection-start-column="33" selection-end-line="590" selection-end-column="33" />
+        <state relative-caret-position="1235">
+          <caret line="589" column="14" selection-start-line="589" selection-start-column="14" selection-end-line="589" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petrarch2/data/config/PETR_config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="1140" column="50" lean-forward="true" selection-start-line="1140" selection-start-column="50" selection-end-line="1140" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evts.test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petrarch2/b.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="2702" column="19" lean-forward="true" selection-start-line="2702" selection-start-column="19" selection-end-line="2702" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petrarch2/passive.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/raw.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petrarch2/test-ch2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1205">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
         </state>
       </provider>
     </entry>
@@ -762,53 +807,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/petrarch2/tevent.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/petrarch2/tevent">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/petrarch2/testip.xml">
+    <entry file="file://$PROJECT_DIR$/petrarch2/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petrarch2/data/dictionaries/MyVerbDic.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="527">
+          <caret line="115" column="20" lean-forward="true" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petrarch2/test-ch2.xml">
+    <entry file="file://$PROJECT_DIR$/petrarch2/utilities.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petrarch2/data/dictionaries/MyAgentDic.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="589" column="14" lean-forward="true" selection-start-line="589" selection-start-column="14" selection-end-line="589" selection-end-column="14" />
+        <state relative-caret-position="172">
+          <caret line="373" lean-forward="true" selection-start-line="373" selection-end-line="373" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input/raw.txt">
+    <entry file="file://$PROJECT_DIR$/petrarch2/testnot.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="194">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petrarch2/news888.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petrarch2/petrarch2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="150" column="37" selection-start-line="150" selection-start-column="37" selection-end-line="150" selection-end-column="37" />
+          <folding>
+            <element signature="e#25#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/petrarch2/PETRtree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="824">
-          <caret line="1185" column="57" selection-start-line="1185" selection-start-column="57" selection-end-line="1185" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petrarch2/data/config/PETR_config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="225">
+          <caret line="1201" column="32" lean-forward="true" selection-start-line="1201" selection-start-column="32" selection-end-line="1201" selection-end-column="32" />
+          <folding>
+            <element signature="e#10721#13382#1" />
+            <element signature="e#25195#25886#1" />
+            <element signature="e#26445#26789#1" />
+            <element signature="e#41619#42282#1" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/petrarch2/evts.test.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="126">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
         </state>
       </provider>
     </entry>
