@@ -1281,20 +1281,27 @@ class VerbPhrase(Phrase):
 
         if(self.children[0].label=="LB"):
             try:
-                verb = filter(lambda a: a.label == 'VV', self.children[1].children[1].children[0].children)[0].text
+                verb = self.children[1].children[1].get_head()[0]
+                #verb = filter(lambda a: a.label == 'VV', self.children[1].children[1].children[0].children)[0].text
             except:
                 verb = self.children[1].children[1].get_head()[0]
         elif(self.children[0].label=="SB"):
             if(self.children[1].label=="IP"):
                 try:
-                    verb = filter(lambda a: a.label == 'VV', self.children[1].children[1].children[0].children)[0].text
+                    #verb=self.children[1].children[1].get_head()[0]
+                    for item in self.children[1].children:
+                        if(item.label=="VP"):
+                            verb=item.get_head()[0]
                 except Exception as e:
                     print('line 1293: exception:', e)
-                    verb = self.children[1].children[1].get_head()[0]
+                    verb = self.get_head()[0]
             else:
                 try:
                     # verb = self.get_head()[0]
-                    verb = filter(lambda a: a.label == 'VV', self.children)[0].text
+                    #verb = filter(lambda a: a.label == 'VV', self.children)[0].text
+                    for item in self.children:
+                        if(item.label=="VP"):
+                            verb=item.get_head()[0]
                 except:
                     verb = self.get_head()[0]
         else:
