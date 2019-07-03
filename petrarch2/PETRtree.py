@@ -1323,20 +1323,25 @@ class VerbPhrase(Phrase):
             # verb=self.children[1].children[1].get_head()[0]
         # verb = "TO" if self.children[0].label == "TO" else self.get_head()[0]
 
-
-        if(self.children[0].label=="LB"):
-            try:
-                verb = self.children[1].children[1].get_head()[0]
-                #verb = filter(lambda a: a.label == 'VV', self.children[1].children[1].children[0].children)[0].text
-            except:
-                verb = self.children[1].children[1].get_head()[0]
-        elif(self.children[0].label=="SB"):
+        verb=""
+        # if(self.children[0].label=="LB"):
+        #     try:
+        #         verb = self.children[1].children[1].get_head()[0]
+        #         #verb = filter(lambda a: a.label == 'VV', self.children[1].children[1].children[0].children)[0].text
+        #     except:
+        #         verb = self.get_head()[0]
+        if(self.children[0].label=="SB" or self.children[0].label=="LB" ):
             if(self.children[1].label=="IP"):
                 try:
                     #verb=self.children[1].children[1].get_head()[0]
                     for item in self.children[1].children:
                         if(item.label=="VP"):
-                            verb=item.get_head()[0]
+                            if(item.children[0].label=="VP"):
+                                verb = filter(lambda a: a.label == 'VV', item.children[0].children)[0].text
+                            elif(item.children[0].label=="MSP"):
+                                verb=item.get_head()[0]
+                            else:
+                                verb=filter(lambda a: a.label == 'VV', item.children)[0].text
                 except Exception as e:
                     print('line 1293: exception:', e)
                     verb = self.get_head()[0]
@@ -1346,7 +1351,7 @@ class VerbPhrase(Phrase):
                     #verb = filter(lambda a: a.label == 'VV', self.children)[0].text
                     for item in self.children:
                         if(item.label=="VP"):
-                            verb=item.get_head()[0]
+                            verb=filter(lambda a: a.label == 'VV', item.children)[0].text
                 except:
                     verb = self.get_head()[0]
         else:
